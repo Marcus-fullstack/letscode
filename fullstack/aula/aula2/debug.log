@@ -1,1 +1,3 @@
 [1009/191632.845:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1012/103433.542:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\marcu\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\fcfcf1bd-18a8-4d39-b7ee-b36eee88037a: O sistema não pode encontrar o caminho especificado. (0x3)
+[1012/115822.946:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
