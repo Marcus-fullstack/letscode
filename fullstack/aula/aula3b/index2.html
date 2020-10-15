@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+        </nav>
+    </header>
+    <form method="post" id="login" action="mailto:marcusrnm@hotmail.com">
+        <fieldset id='usuarios'>
+            <legend>Identificação do Usuário</legend>
+            <p> <label for="cNome"> Nome:</label>
+                <input type="text" name="tNome" id="cNome" size="40" maxlength="40" placeholder="Digite seu usuario" />
+            </p>
+
+            <p> <label for="cEmail">E-mail:</label>
+                <input type="email" name="tEmail" id="cEmail" size="40" maxlength="40" placeholder="Digite seu E-mail" />
+            </p>
+            <p>
+                <fieldset id='mensagem'>
+                    <legend>Mensagem do Usuário</legend>
+                    <p><label for="cNome"> Assunto:</label>
+                        <input type="text" name="tNome" id="cNome" size="40" maxlength="40" placeholder="Digite o assunto" />
+
+                    </p>
+                    <p> <label for="cmsg">Mensagem:</label>
+                        <textarea id="cmsg" name="tmsg" cols="40" rows="5" placeholder="Digite sua Mensagem"></textarea>
+                    </p>
+                </fieldset>
+                <p>
+                    <input type="button" name="enviar" value="Enviar" />
+                </p>
+            </p>
+
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

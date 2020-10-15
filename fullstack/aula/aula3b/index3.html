@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do Cliente</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+        </nav>
+    </header>
+    <form method="post" id="login" action="mailto:marcusrnm@hotmail.com">
+        <fieldset id='usuarios'>
+            <legend>Identificação do Cliente</legend>
+            <p> <label for="cNome"> Nome:</label>
+                <input type="text" name="tNome" id="cNome" size="40" maxlength="40" placeholder="Digite seu usuario" />
+            </p>
+            <p> <label for="cEmail">E-mail:</label>
+                <input type="email" name="tEmail" id="cEmail" size="40" maxlength="40" placeholder="Digite seu E-mail" />
+            </p>
+            <p>
+                <label for="cpfid">CPF:</label>
+                <input type="number" id="cpfid" maxlength="11" size="11" placeholder="Digite seu CPF">
+            </p>
+            <fieldset id='sexo'>
+                <legend>Sexo</legend>
+                <input type="radio" name="tsexo" id="cHomem" checked/><label for="cHomem"> Masculino</label>
+                <input type="radio" name="tsexo" id="cMulher" /><label for="cMulher">Feminino</label>
+            </fieldset>
+            <p>
+                <label for="foneid">Telefone:</label>
+                <input type="number" id="foneid" maxlength="11" size="11" placeholder="Digite seu Telefone" />
+            </p>
+            <p> <input type="checkbox" name="twhats" id="Whatsapp" />
+                <label for="Whatsapp">Deseja receber notificações por Whatsapp?</label>
+            </p>
+            <p> <input type="checkbox" name="temail" id="email" />
+                <label for="Whatsapp">Deseja receber notificações por e-mail?</label>
+            </p>
+            <br>
+            <input type="button" name="enviar" value="Enviar" />
+        </fieldset>
+        </p>
+
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
