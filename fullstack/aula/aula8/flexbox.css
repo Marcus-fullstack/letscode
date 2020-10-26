@@ -1,0 +1,31 @@
+.caixa {
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+.caixa1 {
+    background-color: green;
+}
+
+.caixa2 {
+    background-color: blue;
+}
+
+.caixa3 {
+    background-color: red;
+}
+
+#main-content {
+    width: 90%;
+    background-color: chartreuse;
+    height: 600px;
+    display: flex;
+    margin: 3rem auto;
+}
+
+.first-section .caixas {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

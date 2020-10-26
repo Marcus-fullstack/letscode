@@ -1,0 +1,36 @@
+    body {
+        font-family: arial, Verdana Tahoma, sans-serif;
+        background-color: #dddddd;
+        color: black;
+    }
+    
+    div#interface {
+        width: 1000px;
+        height: 2720px;
+        background-color: #ffffff;
+        margin: -20px auto 10px auto;
+        box-shadow: 0px 0px 10px rgba(43, 27, 27, 0.6);
+        padding: 30px;
+    }
+    
+    div#manchete {
+        width: 950px;
+        height: 60px;
+        background-color: rgba(125, 125, 125, 0.7);
+    }
+    
+    div#inicio {
+        width: 950px;
+        height: auto;
+        background-color: white;
+    }
+    
+    div#lateral {
+        width: 430px;
+        height: auto;
+        background-color: white;
+        /*posição saber como ajustar o espaço da div lateral*/
+        position: relative;
+        bottom: 650px;
+        left: 470px;
+    }
