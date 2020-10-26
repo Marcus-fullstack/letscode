@@ -46,6 +46,14 @@ div#meioesq_renasc {
     bottom: 220px;
 }
 
+div#meiobarroco {
+    position: relative;
+    bottom: 330px;
+    left: 50px;
+    width: 900px;
+    background-color: violet;
+}
+
 .separacao {
     height: 300px;
     width: 900px;
@@ -91,6 +99,13 @@ div#meio {
     position: relative;
     bottom: 675px;
     padding-bottom: 25px;
+    box-sizing: border-box;
+}
+
+div#meiorenasc {
+    width: 900px;
+    height: auto;
+    margin-left: 30px;
     box-sizing: border-box;
 }
 
@@ -240,6 +255,22 @@ li.obra1 {
     text-align: justify;
 }
 
+ul.obra2 {
+    width: 800px;
+    height: 300px;
+    list-style-type: "\266C";
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+li.obra2 {
+    margin-left: 75px;
+    padding-left: 25px;
+    font-family: 'Courgette', cursive;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
 table.filosofo {
     width: 380px;
     background-color: rgb(150, 125, 50);
@@ -313,6 +344,44 @@ td {
     margin-top: 10px;
     margin-left: 10px;
     border-color: black;
+}
+
+.table1 {
+    width: 70%;
+    background-color: black;
+    border-collapse: separate;
+    table-layout: auto;
+    margin-top: auto;
+    margin-left: 65px;
+    border-style: solid;
+    vertical-align: top;
+}
+
+td#table1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 2.5rem;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: center;
+    margin-top: auto;
+    vertical-align: top;
+    color: white;
+}
+
+li#table1 {
+    margin-right: auto;
+    list-style-type: "\266C";
+    color: white;
+    margin-left: 20px;
+    padding-left: 20px;
+    list-style-type: "\266C";
+}
+
+li#table1 p {
+    margin-left: auto;
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-size: 1.25rem;
 }
 
 span.palavra {
