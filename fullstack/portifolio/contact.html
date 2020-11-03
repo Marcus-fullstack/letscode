@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Portifólio</title>
+</head>
+
+<body>
+
+    <div id="interface">
+        <header>
+            <h1>Marcus R. N. Macedo
+            </h1>
+            <h3>Electrical Enginner & Full-Stack Developer</h3>
+            <p>Observação: Aqui pode entrar uma frescurinha como um backgound estilizado para diferenciar do conteúdo, isso que está escrito vai sair</p>
+            <nav id="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li>
+                        <a href="article.html">Blog</a></li>
+                    <li>
+                        <a href="contact.html">Contact</a></li>
+            </nav>
+        </header>
+        <main>
+            <hr id="esboco">
+            <section id="contato">
+                <form method="post" id="fcontato" action="mailto:marcusrnm@hotmail.com">
+                    <!--form method="get" action="sobre.html-->
+                    <fieldset id='usuarios'>
+                        <legend>User Identification</legend>
+                        <p> <label for="cNome"> Name:</label>
+                            <input type="text" name="tNome" id="cNome" size="40" maxlength="40" placeholder="Digite seu Nome Completo" />
+                        </p>
+                        <p> <label for="cSenha">Password:</label>
+                            <input type="password" name="tSenha" id="cSenha" size="20" maxlength="12" placeholder="Senha de 12 digitos" />
+                        </p>
+                        <p> <label for="cEmail">E-mail:</label>
+                            <input type="email" name="tEmail" id="cEmail" size="40" maxlength="40" placeholder="Digite seu E-mail" />
+                        </p>
+                        <fieldset id='sexo'>
+                            <legend>Gender</legend>
+                            <input type="radio" name="tsexo" id="cHomem" checked/><label for="cHomem">Male</label>
+                            <input type="radio" name="tsexo" id="cMulher" /><label for="cMulher">Female</label>
+                        </fieldset>
+                        <p> <label for="cNasc">B.O.D.:</label>
+                            <input type="date" name="tNasc" id="cNasc" /></p>
+                    </fieldset>
+                    <fieldset id='endereco'>
+                        <legend>User Address</legend>
+                        <p> <label for="cEnd">Address:</label>
+                            <input type="text" name="tend" id="cEnd" size="30" maxlength="30" placeholder="Digite seu Endereço" />
+                        </p>
+
+                        <!--<option value="" disable selected> opção desabilitada-->
+                        <p> <label for="cest">State:</label>
+                            <select name="tEst" id="cEst">
+                <optgroup label="Região Sudeste">
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP" selected>São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+                <optgroup label="Região Sul">
+                    <option value="PR">Minas Gerais </option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </optgroup>
+            </select></p>
+                        <p><label for="cCid">City:</label>
+                            <input type="text" name="tcid" id="ccid" size="30" maxlength="30" placeholder="Digite sua Cidade" list="cidade" />
+                            <datalist id="cidade">
+                <option value="Rio de Janeiro"></option>
+                <option value="Nova Iguaçu"></option>
+                <option value="Niterói"></option>
+            </datalist>
+                        </p>
+                        <p> <label for="cCep">Zipcode:</label>
+                            <input type="number" name="tCep" id="cCep" size="8" maxlength="8" placeholder="CEP" /></p>
+                    </fieldset>
+                    <fieldset id='mensagem'>
+                        <legend>User Message</legend>
+                        <p> <label for="cmsg" id="mensagem">Message:</label>
+                            <textarea id="cmsg" name="tmsg" cols="40" rows="5" placeholder="Digite sua Mensagem"></textarea>
+                        </p>
+                    </fieldset>
+
+            </section>
+        </main>
+        <footer id="baseboard_contact">
+            <h1>footer</h1>
+        </footer>
+
+        <body>

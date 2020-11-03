@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/formato1.css" />
     <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-
+    <script language="javascript" src="javascript/funcoes.js"></script>
     <title>Music History</title>
 </head>
 
@@ -65,9 +65,10 @@
                 <div id="meio">
                     <p>By the 6th century, Holiness Gregory Magno systematized and unified ecclesiastical songs to use in religious ceremonies and to later popularize the Gregorian Chant. The mains compositions of monophonic method were:</p>
                     <ul class="obra ">
-                        <li class="obra ">Adorate Deum;
+                        <li class="obra">Adorate Deum;
+                            <!--Terei dois exemplos de canto gregoriano (Adorate Deum e mais um e kyrie eleison)-->
                         </li>
-                        <li class="obra ">Kyrie Eleison;
+                        <li class="obra">Kyrie Eleison;
                         </li>
                     </ul>
                     <p>Approximately 14th century, the music stopped being monophonic to be polyphonic. One example of the composition was Vos Qui Adimiramini by Philippe de Vitri. </p>
@@ -76,58 +77,65 @@
                             <td id="table1">Main Composers:</td>
                             <td>
                                 <ul>
-                                    <li id="table1">
-                                        <a href="Vitri.jpg">
-                                            <p>Philippe de Vitri (1291-1361)
-                                            </p>
+                                    <li id="table1" onmouseover="changepicture('imagens/vitri.jpg')" onmouseout="changepicture('imagens/imgvazia.png')" onclick="myfunction('imagens/vitri.jpg')">
+
+                                        <a href="#foto1">
+                                            <!--Aqui ele so vai para o local, mas eu presiso fazer o link nao funcionar-->
+                                            <p>Philippe de Vitri (1291-1361)</p>
                                         </a>
                                     </li>
 
-                                    <li id="table1">
-                                        <a href="hildegard.jpg">
+                                    <li id="table1" onmouseover="changepicture('imagens/hildegard.jpg')" onmouseout="changepicture('imagens/imgvazia.png')">
+                                        <a href="hildegard">
                                             <p>Hildegard Von Bingen (1098 – 1170)</p>
                                         </a>
-                                    </li>
 
-                                </ul>
-                            </td>
-                        </tr>
                     </table>
 
                     <section>
 
                         <div id="foto1">
-                            <img src="imagens/Vitri.jpg" alt="Foto do Vitri">
+                            <img id="imgvazia" src="imagens/imgvazia.png " alt="Foto Vazia">
                         </div>
-                        <div id="vitri">
-                            <p>Vitri was bishop of Meaux, French composer, mathematic, diplomat, philosopher, poet, military and musicologist. He was pioneer of Ars nova (sheet music). This time did not have details of his life and talking about his childhood
-                                and adulthood is inaccurate. </p>
-                            <p> Observação: Nessa parte sera linkado com o nome da pessoa da tabela, terá um delayzinho e alguns outros efeitos.
-                            </p>
+                        <div id="animation_mediumage">
+                            <div class="animation_texto_vitri">
+                                <p>Vitri was bishop of Meaux, French composer, mathematic, diplomat, philosopher, poet, military and musicologist. He was pioneer of Ars nova (sheet music). This time did not have details of his life and talking about his
+                                    childhood and adulthood is inaccurate.</p>
+
+                            </div>
+
+                            <div class="animation_texto_hildegard">
+                                <p>Hildegard was a Benedictine monk, mystic, theologian, composer, preacher, naturalist, doctor, poet, playwright, German writer. She was not known but it was very important because she breaks the preconception against women.
+                                    She was 10th child of a noble family. The reason that she had religious live was because her precarious health. Her main compositions were:
+                                </p>
+                                <ul class="obra2">
+                                    <li class="obra2">Symphonia Armomie Celestium Revelationum;
+                                    </li>
+                                    <li class="obra2">Ordo Virtutum;
+                                    </li>
+                                </ul>
+                                <p>There were important manuscripts, which were irreverent, satirical and spicy. It was written in Latin. The best known was Carmina Burana. It composted for 24 poems. In 1936, Carl Orff transformed the Carmina Burana poems
+                                    in music. O fortuna is fantastic song and it is played in spectacles and movies.</p>
+                            </div>
                         </div>
-
-                        <div id="wildegard">
-                            <p>Hildegard was a Benedictine monk, mystic, theologian, composer, preacher, naturalist, doctor, poet, playwright, German writer. She was not known but it was very important because she breaks the preconception against women.
-                                She was 10th child of a noble family. The reason that she had religious live was because her precarious health. Her main compositions were: Symphonia armonie celestium revelationum and Ordo Virtutum.
-                            </p>
-                            <p>There were important manuscripts, which were irreverent, satirical and spicy. It was written in Latin. The best known was Carmina Burana. It composted for 24 poems. In 1936, Carl Orff transformed the Carmina Burana poems in
-                                music. O fortuna is fantastic song and it is played in spectacles and movies.</p>
-                            criar uma lista Compositions: Symphonia armonie celestium revelationum; Ordo Virtutum.
-                        </div>
-
-
                     </section>
                 </div>
-                <div id='tv-audio'>
-                    <video id="filme" controls="controls" poster="_imagens/video-mini02.jpg">
-                       <!-- <source src="tenho que ver o nome do filme" type="video/mp4">-->
-                    </video>
+                <div id='audio_hildegard'>
+                    <img src="imagens/mini_vitrola_retro.jpg" alt="vitrola_retro" class="vitrola" />
+                    <audio id="musica" controls="controls">
+                        <source src="audio/hildegard_vin_bingen_ordo_virtutum_5332596680908841446.mp3" type="audio/mp3">
+                        </audio>
                 </div>
                 pra finalizar terá um video e/ou audio em todas as paginas e area do rodape
         </main>
 
         <footer>
         </footer>
+</body>
+
+</html>
+<footer>
+</footer>
 </body>
 
 </html>

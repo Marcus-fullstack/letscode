@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/formato1.css" />
+    <script language="javascript" src="javascript/funcoes.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <title>Music History</title>
@@ -32,23 +33,19 @@
                     <li class="margem">
                         <a href="Classic.html">Classicism Movement</a></li>
                     <li class="margem">
-                        Classicism Movement</a>
-                    </li>
-                    <li class="margem">
                         <a href="Romantic.html">Romantism Movement</a></li>
-                    <li class="margem">Modernism Movement</li>
+                    <li class="margem">
+                        <a href="Modern.html">Modernism Movement</a></li>
                 </ul>
-                <a href="Modern.html"></a>
             </nav>
         </header>
         <main>
             <section>
                 <div id="inicio">
                     <h2 class="inicio">Barroque Movement</h2>
-                    <p class="inicio"> From 1600 to 1750 is period of Baroque movement, this movement appeared in Italy and it was defunded by catholic in Europe and America countries. This movement was an Absolutist regime with the extremely side politic against reform.
-                        Period Baroque was characterized a movement exuberance.</p>
-
-                    <p>Arts style and music baroque style followed the same concept of exuberance and glamour. The music baroque is polyphonic.</p>
+                    <p class=" inicio">From 1600 to 1750 is period of Baroque movement, this movement appeared in Italy and it was defunded by catholic in Europe and America countries. This movement was an Absolutist regime with the extremely side politic against reform.
+                        Period Baroque was characterized an exuberance movement.</p>
+                    <p class="inicio">Arts style and music baroque style followed the same concept of exuberance and glamour. The music baroque is polyphonic.</p>
                 </div>
                 <div id="meiobarroco">
                     <ul class="obra2">
@@ -57,40 +54,58 @@
                             the compass musical. It was little recourse that the baroque style worked to give a sophisticated resulted.
                         </li>
                     </ul>
+                    <p>Although, there are other important musicians and composers in Baroque epic, I believe that these three composers below are represented well the baroque music.</p>
                 </div>
                 <!--comecei aqui-->
                 <!--configura a tabela-->
 
 
-                <table class="table3">
+                <table class="table2">
                     <tr>
-                        <td id="table3">Main Composers:</h3>
+                        <td id="table2">Main Composers:</h3>
                         </td>
                         <td>
                             <ul>
-                                <li id="table3">
-                                    <p>Johann Sebastian Bach (1685 – 1750)</p>
+                                <li id="table2" onmouseover="changepicture('imagens/bach.jpg')" onmouseout="changepicture('imagens/imgvazia.png')">
+                                    <a href="bach">
+                                        <p>Johann Sebastian Bach (2685 – 1750)</p>
+                                    </a>
                                 </li>
-                                <li id="table3">
-                                    <p>Georg Friedrich Haendel (1685 – 1759)</p>
+                                <li id="table2" onmouseover="changepicture('imagens/haendel.jpg')" onmouseout="changepicture('imagens/imgvazia.png')">
+                                    <a href="haendel">
+                                        <p>Georg Friedrich Haendel (1685 – 1759)</p>
+                                    </a>
                                 </li>
-                                <li id="table3">
-                                    <p>Antonio Lucio Vivaldi (1678 – 1741)</p>
+                                <li id="table2" onmouseover="changepicture('imagens/vivaldi.jpg')" onmouseout="changepicture('imagens/imgvazia.png')">
+                                    <a href="vivaldi">
+                                        <p>Antonio Lucio Vivaldi (1678 – 1741)</p>
                                 </li>
                             </ul>
                         </td>
                     </tr>
                 </table>
 
-
-                <p>Bach was a professor and regent German composer, he played virginal, organ, violinist and viola player. He was born in a traditional musical family. He was a complete musician. Bach had influence Italian and French music and he had background
-                    in all European music of the baroque movement, renascent movement and medieval epic.</p>
-                <p> J. Sebastian Bach was virtuoso. His mains compositions were Brandenburg concert, Well-seasoned clove, the sonatas and passion by Mathew Saint. Bach was youngest talented child of a Lutheran family and he had two brothers. He learned to
-                    play piano with cousin and play rope instrument with his father. </p>
-                <p>When he was 14 years and fortunately he got scholarship in a Lüneburg college before a new epidemic the city where he lived. After study, Bach had succeeded in many countries and in 1707, he married with Maria Barbara. He suffered the
-                    misfortune of taking several of his children to the still small tomb, and the survivors grew and left home. From 1723 until his died, he was singer in the Lutheran San Tomas Churchill in Leipzig.</p>
-
-
+                <div id="foto1_barroco">
+                    <img scr="imagens/imgvazia.png" id="imgvazia">
+                </div>
+                <div id="animation_barroque">
+                    <div class="animation_texto_bach">
+                        <p>Bach was a professor and regent German composer, he played virginal, organ, violinist and viola player. He was born in a traditional musical family. He was a complete musician. Bach had influence Italian and French music and he
+                            had background in all European music of the baroque movement, renascent movement and medieval epic.</p>
+                        <p> J. Sebastian Bach was virtuoso. His mains compositions were Brandenburg concert, Well-seasoned clove, the sonatas and passion by Mathew Saint. Bach was youngest talented child of a Lutheran family and he had two brothers. He learned
+                            to play piano with cousin and play rope instrument with his father. </p>
+                        <p>When he was 14 years and fortunately he got scholarship in a Lüneburg college before a new epidemic the city where he lived. After study, Bach had succeeded in many countries and in 1707, he married with Maria Barbara. He suffered
+                            the misfortune of taking several of his children to the still small tomb, and the survivors grew and left home. From 1723 until his died, he was singer in the Lutheran San Tomas Churchill in Leipzig.</p>
+                    </div>
+                    <div class="animation_texto_haendel">
+                        <p>Haendel was German, naturalized British in 1726. He studied music against his father, who would like to have a lawyer son. He had been a conductor and violinist in a local orchestra and after he was indicated as Great Britain conducter.
+                            His main compositors were Júlio César, Utrecht Te Deum, Esther, O Messias, Alcina e Acis e Galatea.</p>
+                    </div>
+                    <div class="animation_texto_vivaldi">
+                        <p>Vivaldi was Italian asthmatic composer; he was virtuoso violinist, left the Eucharistic because he had asthma and the health fragility. He had influence with Arcangello Corelli. Vivaldi had some love affairs and he was suspected
+                            to make adaptation in old Venetian opera to adjust the vocal recourses of lover. His main composition was Four seasons and la stravaganza</p>
+                    </div>
+                </div>
 
             </section>
         </main>

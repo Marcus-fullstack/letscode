@@ -1,3 +1,4 @@
+@charset "UTF-8";
 div#interface {
     background-color: white;
     width: 950px;
@@ -64,20 +65,30 @@ hr#esboco {
 
 #first_part {
     width: 875px;
-    height: 450px;
-    background-color: rgba(0, 75, 10, 0.5);
+    height: 375px;
+    background-color: green;
     position: relative;
-    top: 80px;
+    top: 100px;
+}
+
+div#subtitle {
+    background-color: transparent;
+    width: 150px;
+    height: 60x;
+    position: relative;
+    top: 140px;
+    left: 475px;
 }
 
 div#summary {
-    background-color: rgb(200, 200, 200);
+    background-color: aquamarine;
     position: relative;
-    top: 25px;
-    left: 400px;
-    width: 475px;
+    top: 140px;
+    left: 370px;
+    width: 485px;
     border-radius: 15px;
     box-shadow: 3px 3px 3px;
+    border: black;
 }
 
 div#summary h4 {
@@ -100,7 +111,7 @@ div#foto {
     height: 300px;
     background-color: rgb(225, 225, 175);
     position: relative;
-    top: -345px;
+    top: -170px;
     left: 25px;
     border-radius: 50%;
     box-shadow: inset 1px 1px 5px silver, 3px 3px 5px rgba(50, 50, 50, 0.9);
@@ -128,24 +139,54 @@ div#foto .parte_branca {
 
 div.developer_left {
     width: 350px;
-    height: 300px;
+    height: 320px;
     border-radius: 15px;
     box-shadow: 3px 3px 3px;
     background-color: rgb(200, 200, 200);
     position: relative;
-    top: 30px;
+    top: 15px;
     left: 50px
+}
+
+div.developer_left h4 {
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: auto;
+}
+
+div.developer_left p {
+    text-align: justify;
+    padding: 5px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 5px;
 }
 
 div.developer_right {
     width: 350px;
-    height: 300px;
+    height: 320px;
     border-radius: 15px;
     box-shadow: 3px 3px 3px;
     background-color: rgb(200, 200, 200);
     position: relative;
     left: 450px;
-    top: -270px;
+    top: -325px;
+}
+
+div.developer_right h4 {
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: auto;
+}
+
+div.developer_right p {
+    text-align: justify;
+    padding: 5px;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 5px;
 }
 
 footer#baseboard {
@@ -153,5 +194,128 @@ footer#baseboard {
     height: 100px;
     background-color: tomato;
     position: relative;
-    top: 175px;
+    top: 215px;
+}
+
+footer#baseboard_article {
+    width: 875px;
+    height: 100px;
+    position: relative;
+    bottom: 550px;
+    background-color: tomato;
+}
+
+footer#baseboard_contact {
+    width: 870px;
+    height: 100px;
+    background-color: tomato;
+    position: relative;
+    top: 150px;
+}
+
+footer#baseboard_works {
+    width: 870px;
+    height: 100px;
+    background-color: tomato;
+    position: relative;
+    top: 150px;
+}
+
+div#article {
+    width: 600px;
+    height: auto;
+    position: relative;
+    top: 120px;
+    left: 50px;
+    background-color: beige;
+}
+
+div#article h2 {
+    font-size: 28px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div#article p {
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'cambria';
+    margin: 10px;
+    padding: 10px;
+}
+
+div #article ul {
+    width: 500px;
+}
+
+div#article li {
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'cambria';
+}
+
+aside {
+    width: 200px;
+    height: 745px;
+    background-color: bisque;
+    position: relative;
+    bottom: 635px;
+    left: 675px;
+}
+
+div#subject {
+    width: 800px;
+    height: 800px;
+    background-color: whitesmoke;
+    position: relative;
+    top: 100px;
+    left: 25px;
+}
+
+section#contato {
+    position: relative;
+    top: 75px;
+    background-color: cyan;
+}
+
+form {
+    width: 200;
+    margin: auto;
+}
+
+input,
+textarea {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 12pt;
+    background-color: rbga(255, 255, 255, 0.6);
+}
+
+input:hover,
+textarea:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+legend {
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+
+fieldset {
+    border-color: rgb(135, 135, 155);
+    margin: 60px;
+}
+
+fieldset#sexo {
+    width: 200px;
+    position: absolute;
+    top: -25px;
+    right: 25px;
+}
+
+label#mensagem {
+    position: relative;
+    bottom: 80px;
 }
