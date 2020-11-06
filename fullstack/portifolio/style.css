@@ -11,9 +11,9 @@ div#interface {
 
 header {
     margin: auto;
-    position: absolute;
-    top: 20px;
-    right: 200px;
+    position: relative;
+    top: -65px;
+    right: 40px;
     width: 950px;
     height:150px;
     background-image: url("background.jpg");
@@ -25,11 +25,13 @@ h3 {
     padding-left: 30px;
     padding-bottom: -5px;
     color:white;
+    box-sizing: border-box;
 }
 
 header h3 {
     padding-top: -10px;
     padding-left: 50px;
+    box-sizing: border-box;
 }
 
 header nav#menu ul {
@@ -43,27 +45,37 @@ header nav#menu ul {
     position: absolute;
     top: 50px;
     left: 565px;
+    
 }
 
 nav#menu li {
     display: inline-block;
     padding: 10px;
     margin: 3px;
-    transition: background-color 0.7s;
+    
 }
 
 a {
     text-decoration: none;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+    display: inline-block;
+    
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;  
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+    color: white;
+    display: inline-block;
 }
-
-hr#esboco {
-    position: relative;
-    top: 100px;
-    left: 0px;
+a:visited {
+    text-decoration: none;  
+    border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+    display: inline-block;
+    color: white;
 }
 
 #first_part {
@@ -71,7 +83,7 @@ hr#esboco {
     height: 375px;
     background-color: white;
     position: relative;
-    top: 100px;
+    top: -50px;
 }
 
 div#subtitle h3{
@@ -125,7 +137,7 @@ div#foto {
     height: 300px;
     background-color: rgb(225, 225, 175);
     position: relative;
-    top: -170px;
+    top: -200px;
     left: 25px;
     border-radius: 50%;
     box-shadow: inset 1px 1px 5px silver, 3px 3px 5px rgba(50, 50, 50, 0.9);
@@ -133,7 +145,8 @@ div#foto {
 }
 p.lembrete{
     position: relative;
-    top:-175px;}
+    top:-200px;
+}
 div#foto .parte_branca {
     background-color: white;
     width: 280px;
@@ -156,7 +169,7 @@ div#foto .parte_branca img.marcus{
     height: 350px;
     background-color: white;
     position: relative;
-    top: 100px;
+    top: -15px;
     box-sizing: border-box;
 }
 
@@ -237,7 +250,7 @@ footer#baseboard {
     height:150px;
     background-image: url(background.jpg);
     position: relative;
-    top: 225px;
+    top: 55px;
     right: 40px;
 }
 footer#baseboard h2{
@@ -257,7 +270,7 @@ footer#baseboard_article {
     width: 950px;
     height:150px;
     position: relative;
-    bottom: 542px;
+    bottom: 710px;
     right:40px;
     background-image: url(background.jpg);
 }
@@ -275,11 +288,11 @@ footer#baseboard_article h3{
 }
 
 footer#baseboard_contact {
-   width: 950px;
+    width: 950px;
     height:150px;
     background-image: url(background.jpg);
     position: relative;
-    top: 172px;
+    top: 10px;
     right: 40px;
 }
 footer#baseboard_contact h2{
@@ -299,7 +312,7 @@ footer#baseboard_works {
     height:150px;
     background-image: url(background.jpg);
     position: relative;
-    top: 170px;
+    top: 0px;
     right:40px;
 }
 footer#baseboard_works h2{
@@ -308,7 +321,7 @@ footer#baseboard_works h2{
     left: 400px;
     color:rgb(75,50,25);
 }
-footer#baseboard_article h3{
+footer#baseboard_works h3{
     position: relative;
     top: 50px;
     left: 475px;
@@ -318,7 +331,7 @@ div#article {
     width: 600px;
     height: auto;
     position: relative;
-    top: 120px;
+    top: 0px;
     left: 50px;
     background-color: white;
 }
@@ -352,7 +365,7 @@ aside {
     height: 745px;
     background-color: white;
     position: relative;
-    bottom: 635px;
+    bottom: 725px;
     left: 675px;
 }
 img#coracao{
@@ -371,19 +384,19 @@ div#subject {
     height: 800px;
     background-color: whitesmoke;
     position: relative;
-    top: 100px;
+    top: -25px;
     left: 25px;
 }
 
 section#contato {
     position: relative;
-    top: 75px;
-    background-color: white;
+    top: -50px;
+    background-color:white;
 }
 
 form {
-    width: 200;
-    margin: auto;
+    width: 150;
+    margin: 0;
 }
 
 input,
@@ -409,6 +422,8 @@ legend {
 fieldset {
     border-color: rgb(135, 135, 155);
     margin: 60px;
+    
+
 }
 
 fieldset#sexo {
