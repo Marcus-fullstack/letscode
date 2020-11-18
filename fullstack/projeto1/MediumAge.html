@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/midia.css" />
     <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <script language="javascript" src="javascript/funcoes.js"></script>
@@ -69,7 +70,7 @@
                         <li class="obra">Adorate Deum;
                             <!--Terei dois exemplos de canto gregoriano (Adorate Deum e mais um e kyrie eleison)-->
                         </li>
-                        <li class="obra">Kyrie Eleison;
+                        <li class="obra"> Kyrie Christe Eleison;
                         </li>
                     </ul>
                     <p>Approximately 14th century, the music stopped being monophonic to be polyphonic. One example of the composition was Vos Qui Adimiramini by Philippe de Vitri. </p>
@@ -78,7 +79,7 @@
                             <td id="table1">Main Composers:</td>
                             <td>
                                 <ul>
-                                    <li id="table1" onmouseover="changepicture('imagens/vitri.jpg')" onmouseout="changepicture('imagens/imgvazia.png')" onclick="myfunction('imagens/vitri.jpg')">
+                                    <li id="table1" onmouseover="changepicture('imagens/vitri.jpg')" onmouseout="changepicture('imagens/imgvazia.png')">
 
                                         <a href="#foto1">
                                             <!--Aqui ele so vai para o local, mas eu presiso fazer o link nao funcionar-->
@@ -96,7 +97,7 @@
                     <section>
 
                         <div id="foto1">
-                            <img id="imgvazia" src="imagens/imgvazia.png " alt="Foto Vazia">
+                            <img id="imgvazia" src="imagens/imgvazia.png " alt="Foto Vazia" width="99%">
                         </div>
                         <div id="animation_mediumage">
                             <div class="animation_texto_vitri">
@@ -127,11 +128,17 @@
                         <source src="audio/hildegard_vin_bingen_ordo_virtutum_5332596680908841446.mp3" type="audio/mp3">
                         </audio>
                 </div>
-                pra finalizar terá um video e/ou audio em todas as paginas e area do rodape
+                <div id='tv-audio'>
+                    <video id="filme_idmedia" controls="controls">
+                        <source src="movies/Gregorian-NothingElseMatters.mp4" type="video/mp4">
+                    </video>
         </main>
+        <div id="end_mediumage">
+            <p class="end_mediumage">There were other important classical composers in every period musical that I described it and it is impossible writing all of them and perhaps this research there was gap between movements and composers.</p>
+        </div>
 
-        <footer>
-        </footer>
+
+        </div>
 </body>
 
 </html>

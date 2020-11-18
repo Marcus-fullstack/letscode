@@ -1,0 +1,144 @@
+@charset "UTF-8";
+div#tv-audio {
+    width: 380px;
+    height: 580px;
+    margin: auto;
+}
+
+video#filme {
+    display: block;
+    position: relative;
+    left: 415px;
+    bottom: 1580px;
+    width: 350px;
+    box-sizing: border-box;
+}
+
+video#filme_idmedia {
+    display: block;
+    position: relative;
+    left: 465px;
+    bottom: 1640px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+div#audio_hildegard {
+    width: 250px;
+    height: 285px;
+    background-color: black;
+    position: relative;
+    bottom: 1575px;
+    left: 888px;
+    box-sizing: border-box;
+}
+
+img.vitrola {
+    width: 240px;
+    height: 240px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+div#audio_hildegard #musica {
+    width: 240px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+div#audio_josquim {
+    width: 250px;
+    height: 285px;
+    background-color: black;
+    position: relative;
+    bottom: 1975px;
+    left: 850px;
+    box-sizing: border-box;
+}
+
+div#audio_josquim #musica {
+    width: 240px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+div#audio_bach {
+    width: 250px;
+    height: 285px;
+    background-color: black;
+    position: relative;
+    bottom: 1275px;
+    left: 865px;
+    box-sizing: border-box;
+}
+
+div#audio_bach #musica {
+    width: 240px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    box-sizing: border-box;
+}
+
+div#audio_haydn {
+    width: 250px;
+    height: 285px;
+    background-color: black;
+    position: relative;
+    bottom: 1225px;
+    left: 860px;
+    box-sizing: border-box;
+}
+
+div#audio_haydn #musica {
+    width: 240px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    box-sizing: border-box;
+}
+
+div#audio_chopin {
+    width: 250px;
+    height: 285px;
+    background-color: black;
+    position: relative;
+    bottom: 1240px;
+    left: 825px;
+    box-sizing: border-box;
+}
+
+div#audio_chopin #musica {
+    width: 240px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    box-sizing: border-box;
+}
+
+div#audio_debussy {
+    width: 250px;
+    height: 285px;
+    background-color: black;
+    position: relative;
+    bottom: 1535px;
+    left: 950px;
+    box-sizing: border-box;
+}
+
+div#audio_debussy #musica {
+    width: 240px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    box-sizing: border-box;
+}

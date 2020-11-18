@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css" />
+
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/midia.css" />
     <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <script language="javascript" src="javascript/funcoes.js"></script>
     <title>Music History</title>
 </head>
+
 <body>
     <div id="interface">
         <!--Esqueleto do Html-->
@@ -41,10 +43,137 @@
         </header>
         <main>
             <section>
-            <div id="inicio">
+                <div id="inicio">
                     <h2 class="inicio">Classicism Movement</h2>
-                    <p class="inicio">The term Classic is originally Latin “Classicus” and mean noble citizens, in other words, citizens of the high class. Classicism appreciated the classic antiquity. The classicist art found formal purity and equilibrium. They believed that the word there were many gods and each God had function, for example: Zeus (God of gods), Apollo (God of war), Dionysius or Paco (God of Wine, god of happy) and others, it is Greece-Roman Mythology. </p>
-                    <p class="inicio">Friedrich Wilhelm Nietzsche was responsible to change the mind of people because he believed that Europa could to achieve the equilibrium adopting Apollo than Dionysius, in other words, close mind and be more apolitical.</p>
-            </div>
-            <div id="meio_classic">
-            
+                    <p class="inicio">The term Classic is originally Latin “Classicus” and mean noble citizens, in other words, citizens of the high class. Classicism appreciated the classic antiquity. The classicist art found formal purity and equilibrium. They believed
+                        that the word there were many gods and each God had function, for example:</p>
+                    <ul class="obra1">
+                        <li class="obra1">Zeus (God of gods);</li>
+                        <li class="obra1">Apollo (God of Sun);</li>
+                        <li class="obra1">Dionysius or Paco (God of Wine, god of happy);</li>
+                        <li class="obra1">Aphrodite (God of love); </li>
+
+                    </ul>
+
+                </div>
+                <div id="meioclassic">
+                    <p class="meioclassic">It is Greece-Roman Mythology.</p>
+                    <p class="meioclassic">Friedrich Wilhelm Nietzsche was responsible to change the mind of people because he believed that Europa could to achieve the equilibrium adopting Apollo than Dionysius, in other words, close mind and be more apolitical.</p>
+
+                </div>
+                <div id="img_deuses">
+                    <figure class="foto_zeus">
+                        <img src="imagens/zeus.jpg" alt="Foto do Zeus" class="img_zeus">
+                        <figcaption>
+                            <h3>Zeus</h3>
+                        </figcaption>
+                    </figure>
+                    <figure class="foto_apolo">
+                        <img src="imagens/apolo.jpg" alt="Foto do Apolo" class="img_apolo">
+                        <figcaption>
+                            <h3>Apolo</h3>
+                        </figcaption>
+                    </figure>
+                    <figure class="foto_dionisio">
+                        <img src="imagens/dionisio.jpg" alt="Foto do Dionisio" class="img_dionisio">
+                        <figcaption>
+                            <h3>Dionisio</h3>
+                        </figcaption>
+                    </figure>
+                    <figure class="foto_afrodite">
+                        <img src="imagens/afrodite.jpg" alt="Foto do Afrodite" class="img_afrodite">
+                        <figcaption>
+                            <h3>Afrodite</h3>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div id="meio2_classic">
+                    <p id="meioclassic">Last compositors baroque started writing compositions pre-classic, with the passage of time the music ceased to be abstract, because the musician created sonata and opera performances with more emphasis in each instrument and each
+                        voice, the compositions was sophisticated and elegancy, with soft and equilibrated tons.</p>
+                    <p id="meioclassic">The main composers are listed above.</p>
+                </div>
+                <div id="composers_classic">
+                    <table class="table4">
+                        <tr>
+                            <td id="table4">Main Composers:</h3>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li id="table4" onmouseover="changepicture('imagens/haydn.jpg')" onmouseout="changepicture('imagens/imgvazia.png')">
+                                        <a href="haydn">
+                                            <p> Franz Joseph Haydn ( 1732 - 1809 )</p>
+                                        </a>
+                                    </li>
+                                    <li id="table4" onmouseover="changepicture('imagens/mozart.jpg')" onmouseout="changepicture('imagens/imgvazia.png')">
+                                        <a href="mozart">
+                                            <p>Wolfgang Amadeus Mozart ( 1756 - 1791 )</p>
+                                        </a>
+                                    </li>
+                                    <li id="table4" onmouseover="changepicture('imagens/betoween.jpg')" onmouseout="changepicture('imagens/imgvazia.png')">
+                                        <a href="betoween">
+                                            <p> Ludwig Van Beethoven ( 1770 - 1827 )</p>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="foto1_classic">
+                    <img scr="imagens/imgvazia.png" id="imgvazia">
+                </div>
+                <div id="animation_classic">
+                    <div class="animation_texto_haydn">
+                        <p class="texto_haydn">Tenor Haydn personifies movement classic of Viena next to Mozart and Beethoven, populary known Viennese trinity. He was a bridge of the musical evolution because he was original and he did not have influence of others composers,
+                            he was isolated creating his compositions. </p>
+                        <p class="texto_haydn">During infancy, he suffered humiliations and hunger; however he learned to play clove or harpsichord and violin because he had a musician family, with broad repertoire.</p>
+                        <p class="texto_haydn">He is considered symphonic father’s and spring quartet, his development musical rigid and subtle of the sonata left his music more harmonious.</p>
+                        <p class="texto_haydn">Important Compositions:</p>
+                        <ul class="obra2">
+                            <li class="obra2">First movement (allegro moderato);</li>
+                            <li class="obra2">Second movement of sonata;</li>
+                        </ul>
+                    </div>
+                    <div class=" animation_texto_mozart">
+                        <p class="texto_mozart">His name of baptism was Johannes Chrysostomus Wolfgangus Theophilus Mozart, but he was known as Wolfgang Amadeus Mozart or simply Mozart. </p>
+                        <p class="texto_mozart">Mozart was composer, teacher and conductor. He was lavish musical ability since childhood, he started compose with five years old and he already played piano and violin. He had influence with baroque, renascent, classicism and
+                            romantic period.
+                        </p>
+                        <p class="texto_mozart">In adolescence, he was hired as a court musician; however the city, where he lived, had limitations musical preventing his growth, so he changed to capital because he found new challenges and improve his technique. His qualities
+                            were restless and ambitious. In one of his compositions were theatrical performance.</p>
+                        <p class="texto_mozart">The main compositions:</p>
+                        <ul class="obra2">
+                            <li class="obra2">Requiem (with baroque traces);</li>
+                            <li class="obra2">Aria the queen of the night and the magic flute; </li>
+                            <li class="obra2">Lacrimosa (sacra music);</li>
+                        </ul>
+                    </div>
+                    <div class="animation_texto_betoween">
+                        <p class=" texto_betoween">Beethoven was German composer of classicism and romantic transition. His compositions had freedom: artistic, politic, choice, creed and live.</p>
+                        <p class=" texto_betoween">Just like Mozart, Beethoven was prodigal since child. Beethoven had seven brothers, but four brothers died: Johann Peter Anton (first marriage of this mother), Ludwig Maria, Anna Maria, Franz Georg and Maria Magdalena. Remaining
+                            Beethoven, Kaspar Anton Carl van Beethoven, Nicolaus Johann van Beethoven.
+                        </p>
+                        <p class=" texto_betoween">He had systematic formation and with ten years he knew all Bach repertory. After the death of Mozart, Beethoven finished his studies and became a virtuoso pianist. He started to have auditory problems when he was 26 years and he
+                            later completely lost his hearing. In virtue the fact of deaf and marriage lost, he had creative crisis.</p>
+                        <p class=" texto_betoween">His main compositions were:</p>
+                        <ul class="obra2">
+                            <li class="obra2">Hammerklavier;</li>
+                            <li class="obra2">Diabelli variable;</li>
+                            <li class="obra2">Mass Solemnis;</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id='audio_haydn'>
+                    <img src="imagens/mini_vitrola_retro.jpg" alt="vitrola_retro" class="vitrola" />
+                    <audio id="musica" controls="controls">
+                        <source src="" type="audio/mp3">
+                    </audio>
+                </div>
+            </section>
+        </main>
+        <div id="end_classic">
+            <p class="end_classic"> There were other important classical composers in every period musical that I described it and it is impossible writing all of them and perhaps this research there was gap between movements and composers.</p>
+        </div>
+    </div>
+</body>
+
+</html>
