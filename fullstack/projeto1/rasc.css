@@ -1,0 +1,37 @@
+section {
+    height: 70vh;
+    width: 70vw;
+    padding: 2vw;
+    font-size: 4vw;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section:nth-of-type(odd) {
+    color: #fff;
+    background-color: #000;
+    text-shadow: 0 10px 15px rgba(0, 0, 0, 0.8);
+}
+
+section:nth-child(1) {
+    background-image: url(imagens/1280px-van-willem-vincent-gogh-die-kartoffelesser-03850.jpg);
+}
+
+section:nth-child(3) {
+    background-image: url(imagens/monalisa_davinci.jpg);
+}
+
+section:nth-child(5) {
+    background-image: url(imagens/Pablo_Picasso\,_1910\,_Girl_with_a_Mandolin_\(Fanny_Tellier\)\,_oil_on_canvas\,_100.3_x_73.6_cm\,_Museum_of_Modern_Art_New_York..jpg);
+}

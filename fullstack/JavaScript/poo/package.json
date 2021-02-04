@@ -1,0 +1,17 @@
+{
+  "name": "poo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exemplo1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json": "^10.0.0",
+    "json-js": "^1.1.2",
+    "json.js": "^1.0.0",
+    "readline-sync": "^1.4.10"
+  }
+}

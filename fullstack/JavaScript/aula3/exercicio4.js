@@ -1,11 +1,12 @@
 const readline = require('readline-sync');
 let num = parseInt(readline.question('Numero que deseja fatorar: '));
 let cont = num;
-let fatorial;
+let fatorial = 1;
 
 while (cont >= 1) {
-    fatorial = num * cont;
+    fatorial *= cont;
     cont = cont - 1;
 
 }
+
 console.log(num, '! = ', fatorial);

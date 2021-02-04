@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/midia.css" />
+    <link rel="stylesheet" href="css/composers_texto.css" />
+    <link rel="stylesheet" href="css/composers_picture.css" />
     <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <script language="javascript" src="javascript/funcoes.js"></script>
@@ -46,7 +48,7 @@
                 <div id="inicio">
                     <h2 class="inicio">Medium Age</h2>
                     <p class="inicio">Before the renascent movement we had the medium age, it was not known as a movement. It was long period of Europe history between of 5th century and 15th century. It started with fall of the Roman Empire.</p>
-                    <p>The context socioeconomic system was feudal system, this system was divided into clergy (Church), nobles (feudal lords) and servants (peasants). Nobles were owner of the places, who were boss of the servants. The salary of the peasants
+                    <p class="inicio">The context socioeconomic system was feudal system, this system was divided into clergy (Church), nobles (feudal lords) and servants (peasants). Nobles were owner of the places, who were boss of the servants. The salary of the peasants
                         were part of place and part of plantation, they had place to stay and food to eat, the system was basis exchange of products.</p>
                 </div>
 
@@ -74,21 +76,21 @@
                         </li>
                     </ul>
                     <p>Approximately 14th century, the music stopped being monophonic to be polyphonic. One example of the composition was Vos Qui Adimiramini by Philippe de Vitri. </p>
-                    <table class="table1">
+                    <table id="table1">
                         <tr>
                             <td id="table1">Main Composers:</td>
                             <td>
                                 <ul>
                                     <li id="table1" onmouseover="changepicture('imagens/vitri.jpg')" onmouseout="changepicture('imagens/imgvazia.png')">
 
-                                        <a href="#foto1">
+                                        <a href="#vitri">
                                             <!--Aqui ele so vai para o local, mas eu presiso fazer o link nao funcionar-->
                                             <p>Philippe de Vitri (1291-1361)</p>
                                         </a>
                                     </li>
 
                                     <li id="table1" onmouseover="changepicture('imagens/hildegard.jpg')" onmouseout="changepicture('imagens/imgvazia.png')">
-                                        <a href="hildegard">
+                                        <a href="#hildegard">
                                             <p>Hildegard Von Bingen (1098 – 1170)</p>
                                         </a>
 
@@ -100,6 +102,7 @@
                             <img id="imgvazia" src="imagens/imgvazia.png " alt="Foto Vazia" width="99%">
                         </div>
                         <div id="animation_mediumage">
+
                             <div class="animation_texto_vitri">
                                 <p>Vitri was bishop of Meaux, French composer, mathematic, diplomat, philosopher, poet, military and musicologist. He was pioneer of Ars nova (sheet music). This time did not have details of his life and talking about his
                                     childhood and adulthood is inaccurate.</p>
@@ -122,10 +125,10 @@
                         </div>
                     </section>
                 </div>
-                <div id='audio_hildegard'>
+                <div id='audio_idmedia'>
                     <img src="imagens/mini_vitrola_retro.jpg" alt="vitrola_retro" class="vitrola" />
                     <audio id="musica" controls="controls">
-                        <source src="audio/hildegard_vin_bingen_ordo_virtutum_5332596680908841446.mp3" type="audio/mp3">
+                        <source src="audio/hildegard_vin_bingen_ordo_virtutum_5332596680908841446.mp3" type="audio/mp3"/>
                         </audio>
                 </div>
                 <div id='tv-audio'>
@@ -134,7 +137,7 @@
                     </video>
         </main>
         <div id="end_mediumage">
-            <p class="end_mediumage">There were other important classical composers in every period musical that I described it and it is impossible writing all of them and perhaps this research there was gap between movements and composers.</p>
+            <p id="end_mediumage">There were other important classical composers in every period musical that I described it and it is impossible writing all of them and perhaps this research there was gap between movements and composers.</p>
         </div>
 
 

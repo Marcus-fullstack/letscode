@@ -1,0 +1,168 @@
+div#foto1 {
+    background-color: white;
+    width: 126px;
+    height: 170px;
+    padding: 10px;
+    margin-left: 125px;
+    margin-top: 30px;
+    vertical-align: middle;
+    position: relative;
+    left: -140px;
+    top: 85px;
+    box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
+}
+
+div#foto1:hover {
+    background-color: rgba(50, 50, 50, 0.9);
+    width: 128px;
+    height: 168px;
+    padding: 10px;
+    margin-left: 125px;
+    margin-top: 30px;
+    vertical-align: middle;
+    position: relative;
+    left: -140px;
+    top: 85px;
+    transition: 0.8s;
+}
+
+div#foto1_renascimento {
+    background-color: white;
+    width: 128px;
+    height: 168px;
+    padding: 10px;
+    margin-left: 125px;
+    margin-top: 30px;
+    vertical-align: middle;
+    position: relative;
+    left: -125px;
+    bottom: 550px;
+    box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
+}
+
+div#foto1_renascimento:hover {
+    background-color: rgba(50, 50, 50, 0.9);
+    width: 128px;
+    height: 168px;
+    padding: 10px;
+    margin-left: 125px;
+    margin-top: 30px;
+    vertical-align: middle;
+    position: relative;
+    left: -125px;
+    bottom: 550px;
+    transition: 0.8s;
+}
+
+div#foto1_barroco {
+    background-color: white;
+    width: 128px;
+    height: 168px;
+    padding: 10px;
+    margin-left: 125px;
+    margin-top: 30px;
+    vertical-align: middle;
+    position: relative;
+    left: -125px;
+    bottom: 545px;
+    box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
+}
+
+div#foto1_barroco:hover {
+    background-color: rgba(50, 50, 50, 0.9);
+    width: 128px;
+    height: 168px;
+    padding: 10px;
+    margin-left: 125px;
+    margin-top: 30px;
+    vertical-align: middle;
+    position: relative;
+    left: -125px;
+    bottom: 545px;
+    transition: 0.8s;
+}
+
+div#foto1_classic {
+    background-color: white;
+    width: 128px;
+    height: 168px;
+    padding: 10px;
+    margin-left: 125px;
+    margin-top: 30px;
+    vertical-align: middle;
+    position: relative;
+    left: -125px;
+    bottom: 500px;
+    box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
+}
+
+div#foto1_classic:hover {
+    background-color: rgba(50, 50, 50, 0.9);
+    width: 128px;
+    height: 168px;
+    padding: 10px;
+    margin-left: 125px;
+    margin-top: 30px;
+    vertical-align: middle;
+    position: relative;
+    left: -125px;
+    bottom: 500px;
+    transition: 0.8s;
+}
+
+div#foto1_romantic {
+    background-color: white;
+    width: 128px;
+    height: 168px;
+    padding: 10px;
+    margin-left: 125px;
+    margin-top: 30px;
+    vertical-align: middle;
+    position: relative;
+    left: -100px;
+    bottom: 495px;
+    box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
+}
+
+div#foto1_romancic:hover {
+    background-color: rgba(50, 50, 50, 0.9);
+    width: 126px;
+    height: 170px;
+    padding: 10px;
+    margin-left: 125px;
+    margin-top: 30px;
+    vertical-align: middle;
+    position: relative;
+    left: -100px;
+    bottom: 495px;
+    transition: 0.8s;
+}
+
+div#foto1_modern {
+    background-color: white;
+    width: 146px;
+    height: 190px;
+    padding: 10px;
+    margin-left: 125px;
+    margin-top: 30px;
+    vertical-align: middle;
+    position: relative;
+    left: -25px;
+    bottom: 720px;
+    box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
+    box-sizing: border-box;
+}
+
+div#foto1_modern:hover {
+    background-color: rgba(50, 50, 50, 0.9);
+    width: 146px;
+    height: 190px;
+    padding: 10px;
+    margin-left: 125px;
+    margin-top: 30px;
+    vertical-align: middle;
+    position: relative;
+    left: -25px;
+    bottom: 720px;
+    transition: 0.8s;
+}

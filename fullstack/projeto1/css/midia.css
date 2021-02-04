@@ -5,11 +5,53 @@ div#tv-audio {
     margin: auto;
 }
 
+div#tv-audio_romantic {
+    width: 380px;
+    height: 580px;
+    margin: auto;
+}
+
 video#filme {
     display: block;
     position: relative;
     left: 415px;
     bottom: 1580px;
+    width: 350px;
+    box-sizing: border-box;
+}
+
+video#filme_renasc {
+    display: block;
+    position: relative;
+    left: 415px;
+    bottom: 1685px;
+    width: 350px;
+    box-sizing: border-box;
+}
+
+video#filme_barroco {
+    display: block;
+    position: relative;
+    left: 415px;
+    bottom: 1315px;
+    width: 350px;
+    box-sizing: border-box;
+}
+
+video#filme_classic {
+    display: block;
+    position: relative;
+    left: 415px;
+    bottom: 1270px;
+    width: 350px;
+    box-sizing: border-box;
+}
+
+video#filme_romantic {
+    display: block;
+    position: relative;
+    left: 415px;
+    bottom: 1165px;
     width: 350px;
     box-sizing: border-box;
 }
@@ -23,12 +65,12 @@ video#filme_idmedia {
     box-sizing: border-box;
 }
 
-div#audio_hildegard {
+div#audio_idmedia {
     width: 250px;
     height: 285px;
     background-color: black;
     position: relative;
-    bottom: 1575px;
+    bottom: 1675px;
     left: 888px;
     box-sizing: border-box;
 }
@@ -41,7 +83,7 @@ img.vitrola {
     left: 5px;
 }
 
-div#audio_hildegard #musica {
+div#audio_idmedia #musica {
     width: 240px;
     height: 30px;
     position: relative;
@@ -49,17 +91,17 @@ div#audio_hildegard #musica {
     left: 5px;
 }
 
-div#audio_josquim {
+div#audio_renasc {
     width: 250px;
     height: 285px;
     background-color: black;
     position: relative;
-    bottom: 1975px;
+    bottom: 1780px;
     left: 850px;
     box-sizing: border-box;
 }
 
-div#audio_josquim #musica {
+div#audio_renasc #musica {
     width: 240px;
     height: 30px;
     position: relative;
@@ -67,17 +109,17 @@ div#audio_josquim #musica {
     left: 5px;
 }
 
-div#audio_bach {
+div#audio_barroco {
     width: 250px;
     height: 285px;
     background-color: black;
     position: relative;
-    bottom: 1275px;
+    bottom: 1375px;
     left: 865px;
     box-sizing: border-box;
 }
 
-div#audio_bach #musica {
+div#audio_barroco #musica {
     width: 240px;
     height: 30px;
     position: relative;
@@ -86,17 +128,17 @@ div#audio_bach #musica {
     box-sizing: border-box;
 }
 
-div#audio_haydn {
+div#audio_classic {
     width: 250px;
     height: 285px;
     background-color: black;
     position: relative;
-    bottom: 1225px;
+    bottom: 1325px;
     left: 860px;
     box-sizing: border-box;
 }
 
-div#audio_haydn #musica {
+div#audio_classic #musica {
     width: 240px;
     height: 30px;
     position: relative;

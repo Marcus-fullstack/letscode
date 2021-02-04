@@ -1,1326 +1,955 @@
-    /*parte comum em todas as paginas*/
-    
-    @charset "UTF-8";
-    div#interface {
-        width: 1200px;
-        height: 2300px;
-        background-color: white;
-        margin: -20px auto 10px auto;
-        box-shadow: 0px 0px 10px rgba(43, 27, 27, 0.6);
-        padding: 40px;
-        box-sizing: border-box;
-    }
-    /*parte comum em todas as paginas*/
-    
-    div#inicio {
-        width: 565px;
-        height: auto;
-        background-color: white;
-        position: relative;
-        left: 555px;
-        bottom: 760px;
-        margin-top: auto;
-        padding-top: 0px;
-        box-sizing: border-box;
-    }
-    /*parte idade media*/
-    
-    div #meioesq_idmedia {
-        width: 640px;
-        height: 200px;
-        margin-left: 30px;
-        margin-bottom: auto;
-        position: relative;
-        left: 10px;
-        bottom: 1025px;
-        background-color: transparent;
-        box-sizing: border-box;
-    }
-    
-    div#meioesq_renasc {
-        width: 900px;
-        height: auto;
-        background-color: white;
-        margin-left: -10px;
-        position: relative;
-        left: 30px;
-        bottom: 725px;
-        box-sizing: border-box;
-    }
-    
-    .separacao {
-        height: 300px;
-        width: 900px;
-        column-gap: 20px;
-        position: relative;
-        left: 100px;
-        bottom: 675px;
-        background-color: transparent;
-        box-sizing: border-box;
-    }
-    
-    .separacao_romantic {
-        height: 200px;
-        width: 900px;
-        column-gap: 20px;
-        position: relative;
-        left: 75px;
-        bottom: 675px;
-        background-color: white;
-        box-sizing: border-box;
-    }
-    
-    .separacao_romantic p {
-        margin-top: 15px;
-        padding-top: 15px;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-    
-    .sep1_romantic {
-        width: 425px;
-        height: 35px;
-        background-color: rgba(25, 25, 25, 0.4);
-        position: relative;
-        top: 10px;
-        left: 10px;
-    }
-    
-    .sep2_romantic {
-        width: 425px;
-        height: 35px;
-        background-color: rgba(25, 25, 25, 0.4);
-        position: relative;
-        top: -40px;
-        left: 460px;
-    }
-    
-    .sep1 {
-        width: 400px;
-        height: 200px;
-        background-color: transparent;
-        position: relative;
-        top: 30px;
-        left: 0px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 5px;
-        padding-right: 5px;
-        box-sizing: border-box;
-    }
-    
-    .sep2 {
-        width: 440px;
-        height: 290px;
-        background-color: transparent;
-        position: relative;
-        left: 460px;
-        top: -220px;
-        padding-top: 15px;
-        padding-bottom: 5px;
-        padding-left: 5px;
-        padding-right: 5px;
-        box-sizing: border-box;
-    }
-    
-    div#meio_idmedia {
-        width: 900px;
-        height: auto;
-        background-color: white;
-        margin-left: 30px;
-        position: relative;
-        bottom: 925px;
-        padding-bottom: 25px;
-        box-sizing: border-box;
-    }
-    
-    div#meiobarroco {
-        width: 900px;
-        height: auto;
-        background-color: transparent;
-        margin-left: 35px;
-        position: relative;
-        bottom: 650px;
-        left: 30px;
-        box-sizing: border-box;
-    }
-    
-    p.meiobarroco {
-        text-align: justify;
-        width: 900px;
-    }
-    
-    div#meioclassic {
-        width: 975px;
-        height: auto;
-        background-color: white;
-        margin-left: 35px;
-        position: relative;
-        bottom: 700px;
-        left: 30px;
-        box-sizing: border-box;
-    }
-    
-    div#meio2_classic {
-        width: 975px;
-        height: auto;
-        background-color: white;
-        margin-left: 35px;
-        position: relative;
-        bottom: 600px;
-        left: 30px;
-        box-sizing: border-box;
-    }
-    
-    p.meioclassic {
-        text-align: justify;
-        width: 900px;
-    }
-    
-    div#textocabecalho {
-        font-family: 'Tangerine', serif;
-        font-size: 7rem;
-        color: rgb(50, 50, 75);
-        box-sizing: border-box;
-    }
-    /*parte comum em todas as paginas*/
-    
-    h2.inicio {
-        font-family: 'Tangerine', cursive;
-        font-size: 4rem;
-        text-align: center;
-        color: rgba(50, 50, 50, 0.9);
-        margin-top: 10px;
-        padding-top: 10px;
-        padding-bottom: 0px;
-        box-sizing: border-box;
-    }
-    
-    p.inicio {
-        font-family: 'Courgette', cursive;
-        font-size: 1.1rem;
-        margin-left: 50px;
-        margin-right: 50px;
-        text-align: justify;
-        padding-top: auto;
-        box-sizing: border-box;
-    }
-    
-    figure.sistema {
-        height: 320px;
-        width: 270px;
-        background-color: rgba(7, 7, 7, 0.7);
-        position: relative;
-        left: 725px;
-        bottom: 675px;
-        box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
-        display: inline-block;
-        box-sizing: border-box;
-    }
-    
-    figure.gregoriano {
-        width: 542px;
-        height: 300px;
-        background-color: rgba(50, 50, 50, 0.9);
-        position: relative;
-        display: inline-block;
-        left: 85px;
-        bottom: 975px;
-        box-shadow: 2px 2px 11px #8c9c89;
-        box-sizing: border-box;
-    }
-    
-    img.gregoriano {
-        margin: 10px;
-    }
-    
-    img.sistema {
-        height: 310px;
-        width: 260px;
-        margin-left: 5px;
-        margin-top: 5px;
-    }
-    
-    figure.foto_zeus figcaption h3 {
-        position: relative;
-        left: -50px;
-        z-index: 100;
-        bottom: 60px;
-        display: block;
-        color: white;
-    }
-    
-    figure.foto_apolo figcaption h3 {
-        position: relative;
-        left: 50px;
-        z-index: 100;
-        bottom: 170px;
-        color: rgba(0, 0, 0, 0.7);
-        display: block;
-    }
-    
-    figure.foto_dionisio figcaption h3 {
-        position: relative;
-        left: -25px;
-        z-index: 100;
-        bottom: 60px;
-        color: white;
-        display: block;
-    }
-    
-    figure.foto_afrodite figcaption h3 {
-        position: relative;
-        left: -160px;
-        z-index: 100;
-        bottom: 170px;
-        color: rgba(0, 0, 0, 0.7);
-        display: block;
-    }
-    
-    div#img_deuses {
-        background-color: rgba(75, 75, 75, .8);
-        width: 96%;
-        height: 84%;
-        position: relative;
-        bottom: 650px;
-        display: inline-flex;
-    }
-    
-    img.img_zeus {
-        position: relative;
-        top: 0px;
-        left: -10px;
-        width: 225px;
-        height: 150px;
-    }
-    
-    img.img_apolo {
-        position: relative;
-        top: 0px;
-        left: -50px;
-        width: 225px;
-        height: 150px;
-    }
-    
-    img.img_dionisio {
-        position: relative;
-        top: 0px;
-        left: -90px;
-        width: 225px;
-        height: 150px;
-    }
-    
-    img.img_afrodite {
-        position: relative;
-        top: 0px;
-        left: -130px;
-        width: 225px;
-        height: 150px;
-    }
-    
-    div#img_artes {
-        background-color: rgba(75, 75, 75, .8);
-        width: 96%;
-        height: 100%;
-        position: relative;
-        bottom: 675px;
-        display: flexbox;
-    }
-    
-    img.img_moises {
-        position: relative;
-        top: 0px;
-        left: 0px;
-        margin: 10px 10px 10px 10px;
-        width: 125px;
-        height: 225px;
-        padding: 10px 5px 10px 5px;
-        margin: 10px 5px 10px 5px;
-    }
-    
-    img.img_gattamelata {
-        position: relative;
-        top: 0px;
-        left: 0px;
-        width: 300px;
-        height: 225px;
-        padding: 10px 5px 10px 5px;
-        margin: 10px 5px 10px 5px;
-    }
-    
-    img.img_kartoffelesser {
-        position: relative;
-        top: 0px;
-        left: 0px;
-        width: 440px;
-        height: 225px;
-        padding: 10px 5px 10px 5px;
-        margin: 10px 5px 10px 5px;
-    }
-    
-    p {
-        font-family: 'Courgette', cursive;
-        font-size: 1.1rem;
-        margin-left: 50px;
-        margin-right: 50px;
-        text-align: justify;
-    }
-    
-    h3 {
-        font-family: 'Courgette', cursive;
-        font-size: 1.5rem;
-        margin-left: 50px;
-        margin-right: 50px;
-        text-align: justify;
-    }
-    
-    figure.timeline {
-        width: 40px;
-        height: 400px;
-        position: relative;
-        left: 25px;
-        top: 30px;
-        background-color: silver;
-    }
-    
-    nav ul.menu {
-        width: 300px;
-        border-color: rgb(150, 125, 50);
-        border-style: 3px solid;
-        list-style-type: "\266C";
-        margin-left: 125px;
-        padding-left: 20px;
-        position: relative;
-        top: -360px;
-    }
-    
-    nav li.margem {
-        margin-left: 30px;
-        padding-left: 10px;
-        font-family: 'Tangerine', cursive;
-        font-size: 2.25rem;
-    }
-    
-    a {
-        text-decoration: none;
-        color: rgb(50, 50, 75);
-    }
-    
-    a:hover {
-        color: rgb(175, 100, 0);
-        font-weight: 900;
-    }
-    
-    ul.obra {
-        width: 300px;
-        list-style-type: "\266C";
-        margin-left: 20px;
-        padding-left: 20px;
-    }
-    
-    li.obra {
-        margin-left: 75px;
-        padding-left: 25px;
-        font-family: 'Courgette', cursive;
-        font-size: 1.2rem;
-    }
-    
-    ul.obra1 {
-        width: 450px;
-        list-style-type: "\266C";
-        margin-left: 20px;
-        padding-left: 20px;
-    }
-    
-    li.obra1 {
-        margin-left: 75px;
-        padding-left: 25px;
-        font-family: 'Courgette', cursive;
-        font-size: 1.2rem;
-        text-align: justify;
-    }
-    
-    li.obra {
-        margin-left: 75px;
-        padding-left: 25px;
-        font-family: 'Courgette', cursive;
-        font-size: 1.2rem;
-    }
-    
-    ul.obra2 {
-        width: 900px;
-        list-style-type: "\266C";
-        margin-left: 0px;
-        padding-left: 0px;
-    }
-    
-    li.obra2 {
-        margin-left: 75px;
-        padding-left: 25px;
-        font-family: 'Courgette', cursive;
-        font-size: 1.2rem;
-        text-align: justify;
-    }
-    
-    table.filosofo {
-        width: 340px;
-        background-color: rgb(150, 125, 50);
-        border-collapse: separate;
-        table-layout: 1rem;
-        margin-top: 40px;
-        margin-left: 20px;
-        position: relative;
-        top: -20px;
-        left: -15px;
-        border-style: solid;
-        vertical-align: middle;
-    }
-    
-    table.artista {
-        width: 470px;
-        background-color: rgb(150, 125, 50);
-        border-collapse: separate;
-        table-layout: 1rem;
-        margin-top: 20px;
-        margin-left: 50px;
-        border-style: solid;
-        vertical-align: middle;
-        position: relative;
-        bottom: 10px;
-        right: 40px;
-    }
-    
-    div#meiorenasc {
-        position: relative;
-        bottom: 650px;
-        background-color: transparent;
-    }
-    
-    div#meio_romantic {
-        width: 700px;
-        position: relative;
-        bottom: 700px;
-        left: 75px;
-        background-color: transparent;
-    }
-    
-    div#meio1_romantic {
-        width: 1045px;
-        position: relative;
-        bottom: 610px;
-        left: 35px;
-        background-color: transparent;
-    }
-    
-    div#meio_modern {
-        width: 1045px;
-        position: relative;
-        bottom: 600px;
-        left: 75px;
-        background-color: transparent;
-    }
-    
-    div#meio1_modern {
-        width: 1045px;
-        position: relative;
-        bottom: 575px;
-        left: 35px;
-        background-color: transparent;
-    }
-    
-    table td#table {
-        font-family: 'Tangerine', cursive;
-        font-size: 2.5rem;
-        margin-left: 0;
-        margin-right: auto;
-        text-align: center;
-        margin-top: auto;
-        vertical-align: top;
-        color: white;
-    }
-    
-    li#table {
-        margin-right: auto;
-        list-style-type: "\266C";
-        color: white;
-        margin-left: 20px;
-        padding-left: 20px;
-    }
-    
-    li#table p {
-        margin-left: auto;
-        color: white;
-        font-family: 'Courgette', cursive;
-        font-size: 1.25rem;
-    }
-    
-    .table1 {
-        width: 84%;
-        background-color: rgb(150, 125, 50);
-        border-collapse: separate;
-        border-spacing: 8px;
-        margin-top: 50px;
-        margin-left: 65px;
-        border-style: solid;
-        vertical-align: top;
-        position: relative;
-        top: 20px;
-        left: -30px;
-    }
-    
-    table td#table1 {
-        font-family: 'Tangerine', cursive;
-        font-size: 2.5rem;
-        margin-left: 10px;
-        margin-right: auto;
-        text-align: center;
-        margin-top: 15px;
-        vertical-align: top;
-        color: white;
-    }
-    
-    li#table1 {
-        margin-right: auto;
-        list-style-type: "\266C";
-        color: white;
-        margin-left: 25px;
-        margin-top: 0px;
-        padding-left: 20px;
-        list-style-type: "\266C";
-    }
-    
-    li#table1 p {
-        margin-left: auto;
-        color: white;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        font-family: 'Courgette', cursive;
-        font-size: 1.25rem;
-    }
-    
-    .table2 {
-        width: 70%;
-        background-color: rgb(150, 125, 50);
-        border-collapse: separate;
-        border-spacing: 8px;
-        table-layout: auto;
-        margin-top: auto;
-        margin-left: 65px;
-        border-style: solid;
-        vertical-align: top;
-        position: relative;
-        bottom: 610px;
-        left: -25px;
-    }
-    
-    table td#table2 {
-        font-family: 'Tangerine', cursive;
-        font-size: 2.5rem;
-        margin-left: 0;
-        margin-right: auto;
-        text-align: center;
-        margin-top: auto;
-        vertical-align: top;
-        color: white;
-    }
-    
-    li#table2 {
-        margin-right: auto;
-        list-style-type: "\266C";
-        color: white;
-        margin-left: 20px;
-        padding-left: 20px;
-        list-style-type: "\266C";
-    }
-    
-    li#table2 p {
-        margin-left: auto;
-        color: white;
-        font-family: 'Courgette', cursive;
-        font-size: 1.25rem;
-    }
-    
-    .table3 {
-        width: 65%;
-        background-color: rgb(150, 125, 50);
-        border-collapse: separate;
-        border-spacing: 8px;
-        table-layout: auto;
-        margin-top: auto;
-        margin-left: 65px;
-        border-style: solid;
-        vertical-align: top;
-        position: relative;
-        bottom: -50px;
-    }
-    
-    table td#table3 {
-        font-family: 'Tangerine', cursive;
-        font-size: 2.5rem;
-        margin-left: 0;
-        margin-right: auto;
-        text-align: center;
-        margin-top: auto;
-        vertical-align: top;
-        color: white;
-    }
-    
-    li#table3 {
-        margin-right: auto;
-        list-style-type: "\266C";
-        color: white;
-        margin-left: 20px;
-        padding-left: 20px;
-        list-style-type: "\266C";
-    }
-    
-    li#table3 p {
-        margin-left: auto;
-        color: white;
-        font-family: 'Courgette', cursive;
-        font-size: 1.25rem;
-    }
-    
-    .table4 {
-        width: 72%;
-        background-color: rgb(150, 125, 50);
-        border-collapse: separate;
-        border-spacing: 8px;
-        table-layout: auto;
-        margin-top: auto;
-        margin-left: 65px;
-        border-style: solid;
-        vertical-align: top;
-        position: relative;
-        bottom: 555px;
-        left: -50px;
-    }
-    
-    table td#table4 {
-        font-family: 'Tangerine', cursive;
-        font-size: 2.5rem;
-        margin-left: 0;
-        margin-right: auto;
-        text-align: center;
-        margin-top: auto;
-        vertical-align: top;
-        color: white;
-    }
-    
-    li#table4 {
-        margin-right: auto;
-        list-style-type: "\266C";
-        color: white;
-        margin-left: 20px;
-        padding-left: 20px;
-        list-style-type: "\266C";
-    }
-    
-    li#table4 p {
-        margin-left: auto;
-        color: white;
-        font-family: 'Courgette', cursive;
-        font-size: 1.25rem;
-    }
-    
-    table.romantic {
-        width: 63%;
-        background-color: rgb(150, 125, 50);
-        border-collapse: separate;
-        border-spacing: 8px;
-        table-layout: auto;
-        margin-top: auto;
-        margin-left: 65px;
-        border-style: solid;
-        vertical-align: top;
-        position: relative;
-        bottom: 550px;
-        left: 0px;
-    }
-    
-    table td#romantic {
-        font-family: 'Tangerine', cursive;
-        font-size: 2.5rem;
-        margin-left: 0;
-        margin-right: auto;
-        text-align: center;
-        margin-top: auto;
-        vertical-align: top;
-        color: white;
-    }
-    
-    li#romantic {
-        margin-right: auto;
-        list-style-type: "\266C";
-        color: white;
-        margin-left: 20px;
-        padding-left: 20px;
-        list-style-type: "\266C";
-    }
-    
-    li#romantic p {
-        margin-left: auto;
-        color: white;
-        font-family: 'Courgette', cursive;
-        font-size: 1.25rem;
-    }
-    
-    table.modern {
-        width: 57%;
-        background-color: rgb(150, 125, 50);
-        border-collapse: separate;
-        border-spacing: 8px;
-        table-layout: auto;
-        margin-top: auto;
-        margin-left: 65px;
-        border-style: solid;
-        vertical-align: top;
-        position: relative;
-        bottom: 775px;
-        left: 75px;
-    }
-    
-    table td#modern {
-        font-family: 'Tangerine', cursive;
-        font-size: 2.5rem;
-        margin-left: 0;
-        margin-right: auto;
-        text-align: center;
-        margin-top: auto;
-        vertical-align: top;
-        color: white;
-    }
-    
-    li#modern {
-        margin-right: auto;
-        list-style-type: "\266C";
-        color: white;
-        margin-left: 20px;
-        padding-left: 20px;
-        list-style-type: "\266C";
-    }
-    
-    li#modern p {
-        margin-left: auto;
-        color: white;
-        font-family: 'Courgette', cursive;
-        font-size: 1.25rem;
-    }
-    
-    table tr,
-    td {
-        border-style: solid;
-        border-collapse: separate;
-        margin-top: 20px;
-        margin-left: 20px;
-        padding: 15px;
-        border-color: white;
-        background-color: black;
-    }
-    
-    span.palavra {
-        color: navy
-    }
-    
-    div#foto1 {
-        background-color: white;
-        width: 126px;
-        height: 170px;
-        padding: 10px;
-        margin-left: 125px;
-        margin-top: 30px;
-        vertical-align: middle;
-        position: relative;
-        left: -140px;
-        top: 85px;
-        box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
-    }
-    
-    div#foto1:hover {
-        background-color: rgba(50, 50, 50, 0.9);
-        width: 128px;
-        height: 168px;
-        padding: 10px;
-        margin-left: 125px;
-        margin-top: 30px;
-        vertical-align: middle;
-        position: relative;
-        left: -140px;
-        top: 85px;
-        transition: 0.8s;
-    }
-    
-    img#imgvazia {
-        background-color: black;
-    }
-    
-    div#foto1_renascimento {
-        background-color: white;
-        width: 128px;
-        height: 168px;
-        padding: 10px;
-        margin-left: 125px;
-        margin-top: 30px;
-        vertical-align: middle;
-        position: relative;
-        left: 0px;
-        bottom: 550px;
-        box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
-    }
-    
-    div#foto1_renascimento:hover {
-        background-color: rgba(50, 50, 50, 0.9);
-        width: 128px;
-        height: 168px;
-        padding: 10px;
-        margin-left: 125px;
-        margin-top: 30px;
-        vertical-align: middle;
-        position: relative;
-        left: 0px;
-        bottom: 550px;
-        transition: 0.8s;
-    }
-    
-    div#foto2 {
-        background-color: whitesmoke;
-        width: 128px;
-        height: 168px;
-        padding: 10px;
-        margin-left: 125px;
-        margin-top: 30px;
-        text-align: center;
-        vertical-align: middle;
-        position: relative;
-        bottom: 100%;
-        left: 0px;
-    }
-    
-    div#foto1_barroco {
-        background-color: transparent;
-        width: 128px;
-        height: 168px;
-        padding: 10px;
-        margin-left: 125px;
-        margin-top: 30px;
-        vertical-align: middle;
-        position: relative;
-        left: 25px;
-        bottom: 555px;
-        box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
-    }
-    
-    div#foto1_barroco:hover {
-        background-color: rgba(50, 50, 50, 0.9);
-        width: 128px;
-        height: 168px;
-        padding: 10px;
-        margin-left: 125px;
-        margin-top: 30px;
-        vertical-align: middle;
-        position: relative;
-        left: 25px;
-        bottom: 555px;
-        transition: 0.8s;
-    }
-    
-    div#foto1_classic {
-        background-color: transparent;
-        width: 128px;
-        height: 168px;
-        padding: 10px;
-        margin-left: 125px;
-        margin-top: 30px;
-        vertical-align: middle;
-        position: relative;
-        left: 90px;
-        bottom: 500px;
-        box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
-    }
-    
-    div#foto1_classic:hover {
-        background-color: rgba(50, 50, 50, 0.9);
-        width: 128px;
-        height: 168px;
-        padding: 10px;
-        margin-left: 125px;
-        margin-top: 30px;
-        vertical-align: middle;
-        position: relative;
-        left: 90px;
-        bottom: 500px;
-        transition: 0.8s;
-    }
-    
-    div#foto1_romantic {
-        background-color: transparent;
-        width: 128px;
-        height: 168px;
-        padding: 10px;
-        margin-left: 125px;
-        margin-top: 30px;
-        vertical-align: middle;
-        position: relative;
-        left: -100px;
-        bottom: 495px;
-        box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
-    }
-    
-    div#foto1_romancic:hover {
-        background-color: rgba(50, 50, 50, 0.9);
-        width: 126px;
-        height: 170px;
-        padding: 10px;
-        margin-left: 125px;
-        margin-top: 30px;
-        vertical-align: middle;
-        position: relative;
-        left: -100px;
-        bottom: 495px;
-        transition: 0.8s;
-    }
-    
-    div#foto1_modern {
-        background-color: transparent;
-        width: 128px;
-        height: 168px;
-        padding: 10px;
-        margin-left: 125px;
-        margin-top: 30px;
-        vertical-align: middle;
-        position: relative;
-        left: -25px;
-        bottom: 725px;
-        box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
-        box-sizing: border-box;
-    }
-    
-    div#foto1_modern:hover {
-        background-color: rgba(50, 50, 50, 0.9);
-        width: 126px;
-        height: 170px;
-        padding: 10px;
-        margin-left: 125px;
-        margin-top: 30px;
-        vertical-align: middle;
-        position: relative;
-        left: -25px;
-        bottom: 725px;
-        transition: 0.8s;
-    }
-    
-    div#foto2 {
-        background-color: whitesmoke;
-        width: 128px;
-        height: 170px;
-        padding: 10px;
-        margin-left: 125px;
-        margin-top: 30px;
-        text-align: center;
-        vertical-align: middle;
-        position: relative;
-        bottom: 100%;
-        left: 25px;
-    }
-    
-    div#foto3 {
-        background-color: whitesmoke;
-        border-color: black;
-        height: 450px;
-        padding: 10px;
-        margin-left: 125px;
-        margin-top: 30px;
-        text-align: center;
-        vertical-align: middle;
-        position: relative;
-        bottom: 200px;
-        left: 0px;
-    }
-    
-    div#animation_mediumage {
-        background-color: white;
-        width: 570px;
-        height: 280px;
-        margin-left: 125px;
-        padding: 0 0 0 0;
-        position: relative;
-        bottom: 120px;
-        left: 60px;
-        box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
-        z-index: 50;
-        box-sizing: border-box;
-    }
-    
-    div.animation_texto_vitri {
-        display: flexbox;
-        background-color: transparent;
-        text-align: center;
-        top: 5px;
-        left: 0;
-        opacity: 1;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        position: relative;
-        top: 35px;
-        z-index: 0;
-    }
-    
-    div.animation_texto_vitri p {
-        font-family: 'Courgette', cursive;
-        font-size: 1.1rem;
-        text-align: justify;
-        color: black;
-    }
-    
-    div.animation_texto_hildegard {
-        background-color: green;
-        width: 525px;
-        height: 390px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        position: relative;
-        bottom: -100px;
-        left: 10px;
-    }
-    
-    div.animation_texto_hildegard p {
-        font-family: 'Courgette', cursive;
-        font-size: 1.1rem;
-        margin-left: 10px;
-        margin-right: 10px;
-        text-align: justify;
-    }
-    
-    div#lateral {
-        width: 430px;
-        height: auto;
-        background-color: white;
-        position: relative;
-        bottom: 650px;
-        left: 470px;
-    }
-    
-    img.josquim {
-        width: 8.3rem;
-        height: 9.2rem;
-        position: relative;
-        left: 0px;
-        top: 10px;
-    }
-    
-    div#josquim {
-        background-color: whitesmoke;
-        width: 570px;
-        height: 180px;
-        margin-left: 125px;
-        padding-left: 0 0 0 0;
-        position: relative;
-        bottom: 730px;
-        left: 175px;
-        box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
-    }
-    
-    p.texto_josquim {
-        text-align: justify;
-        position: absolute;
-    }
-    
-    div#palestrina {
-        background-color: orange;
-        width: 545px;
-        height: auto;
-        margin-left: 130px;
-        padding-left: 5px 5px 5px 5px;
-        position: relative;
-        bottom: 710px;
-        left: 175px;
-    }
-    
-    p.texto_palestrina {
-        text-align: justify;
-        position: relative;
-        padding-right: 0;
-    }
-    
-    div#byrd {
-        background-color: gold;
-        width: 545px;
-        height: auto;
-        margin-left: 130px;
-        padding-left: 5px 5px 5px 5px;
-        position: relative;
-        bottom: 700px;
-        left: 175px;
-    }
-    
-    p.texto_byrd {
-        text-align: justify;
-        position: absolute;
-        padding-right: 0;
-    }
-    
-    div#gabrielli {
-        background-color: yellow;
-        width: 545px;
-        height: auto;
-        margin-left: 130px;
-        padding-left: 5px 5px 5px 5px;
-        position: relative;
-        bottom: 700px;
-        left: 175px;
-    }
-    
-    p.texto_gabrielli {
-        text-align: justify;
-        position: absolute;
-        padding-right: 0;
-    }
-    
-    div#monteverdi {
-        background-color: green;
-        width: 545px;
-        height: auto;
-        margin-left: 130px;
-        padding-left: 5px 5px 5px 5px;
-        position: relative;
-        bottom: 470px;
-        left: 175px;
-    }
-    
-    p.texto_monteverdi {
-        text-align: justify;
-        position: absolute;
-        padding-right: 0;
-    }
-    
-    div#animation_barroque {
-        background-color: transparent;
-        width: 570px;
-        height: 180px;
-        margin-left: 125px;
-        padding-left: 0 0 0 0;
-        text-align: justify;
-        position: relative;
-        bottom: 755px;
-        left: 200px;
-        box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
-    }
-    
-    div#animation_classic {
-        background-color: transparent;
-        width: 570px;
-        height: 180px;
-        margin-left: 125px;
-        padding-left: 0 0 0 0;
-        text-align: justify;
-        position: relative;
-        bottom: 700px;
-        left: 275px;
-        box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
-    }
-    
-    div#animation_romantic {
-        background-color: transparent;
-        width: 570px;
-        height: 180px;
-        margin-left: 125px;
-        padding-left: 0 0 0 0;
-        text-align: justify;
-        position: relative;
-        bottom: 700px;
-        left: 100px;
-        box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
-    }
-    
-    div#animation_modern {
-        background-color: transparent;
-        width: 570px;
-        height: 280px;
-        margin-left: 125px;
-        padding-left: 0 0 0 0;
-        text-align: justify;
-        position: relative;
-        bottom: 930px;
-        left: 160px;
-        box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
-    }
-    
-    div#restante {
-        width: 900px;
-        height: 100px;
-        background-color: blue;
-        margin-left: 30px;
-        position: relative;
-        bottom: 390px;
-        left: -30px;
-    }
-    
-    div#end_romantic {
-        width: 1000px;
-        height: 100px;
-        background-color: green;
-        margin-left: 30px;
-        position: relative;
-        bottom: 610px;
-        left: 125px;
-        box-sizing: border-box;
-    }
-    
-    div#end_modern {
-        width: 1000px;
-        height: 70px;
-        background-color: green;
-        margin-left: 30px;
-        position: relative;
-        bottom: 1180px;
-        left: 125px;
-        box-sizing: border-box;
-    }
-    
-    div#end_classic {
-        width: 1000px;
-        height: 100px;
-        background-color: green;
-        margin-left: 30px;
-        position: relative;
-        bottom: 625px;
-        left: 125px;
-        box-sizing: border-box;
-    }
-    
-    div#end_barroque {
-        width: 1000px;
-        height: 100px;
-        background-color: green;
-        margin-left: 30px;
-        position: relative;
-        bottom: 350px;
-        left: 125px;
-        box-sizing: border-box;
-    }
-    
-    div#end_renasc {
-        width: 1000px;
-        height: 100px;
-        background-color: green;
-        margin-left: 30px;
-        position: relative;
-        bottom: 1635px;
-        left: 125px;
-        box-sizing: border-box;
-    }
-    
-    div#end_mediumage {
-        width: 1000px;
-        height: 100px;
-        background-color: greenyellow;
-        margin-left: 30px;
-        position: relative;
-        bottom: 1290px;
-        left: 125px;
-        box-sizing: border-box;
-    }
+/*parte comum em todas as paginas*/
+
+@charset "UTF-8";
+div#interface {
+    width: 1200px;
+    height: 2300px;
+    background-image: url("../imagens/background2.jpg");
+    margin: -20px auto 10px auto;
+    box-shadow: 0px 0px 10px rgba(43, 27, 27, 0.6);
+    padding: 40px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+
+/*parte comum em todas as paginas*/
+
+div#inicio {
+    width: 565px;
+    height: auto;
+    background-color: transparent;
+    position: relative;
+    left: 555px;
+    bottom: 760px;
+    margin-top: auto;
+    padding-top: 0px;
+    box-sizing: border-box;
+}
+
+
+/*parte idade media*/
+
+div #meioesq_idmedia {
+    width: 640px;
+    height: 200px;
+    margin-left: 30px;
+    margin-bottom: auto;
+    position: relative;
+    left: 10px;
+    bottom: 1025px;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+div#meioesq_renasc {
+    width: 900px;
+    height: auto;
+    background-color: transparent;
+    margin-left: -10px;
+    position: relative;
+    left: 30px;
+    bottom: 725px;
+    box-sizing: border-box;
+}
+
+.separacao {
+    height: 300px;
+    width: 900px;
+    column-gap: 20px;
+    position: relative;
+    left: 100px;
+    bottom: 675px;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+.separacao_romantic {
+    height: 200px;
+    width: 900px;
+    column-gap: 20px;
+    position: relative;
+    left: 75px;
+    bottom: 675px;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+.separacao_romantic p {
+    margin-top: 15px;
+    padding-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.sep1_romantic {
+    width: 425px;
+    height: 35px;
+    background-color: rgba(25, 25, 25, 0.4);
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.sep2_romantic {
+    width: 425px;
+    height: 35px;
+    background-color: rgba(25, 25, 25, 0.4);
+    position: relative;
+    top: -40px;
+    left: 460px;
+}
+
+.sep1 {
+    width: 400px;
+    height: 200px;
+    background-color: transparent;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+.sep2 {
+    width: 440px;
+    height: 290px;
+    background-color: transparent;
+    position: relative;
+    left: 460px;
+    top: -220px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+div#meio_idmedia {
+    width: 900px;
+    height: auto;
+    background-color: transparent;
+    margin-left: 30px;
+    position: relative;
+    bottom: 925px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+}
+
+div#meiobarroco {
+    width: 900px;
+    height: auto;
+    background-color: transparent;
+    margin-left: 35px;
+    position: relative;
+    bottom: 650px;
+    left: 30px;
+    box-sizing: border-box;
+}
+
+p.meiobarroco {
+    text-align: justify;
+    width: 900px;
+}
+
+div#meioclassic {
+    width: 975px;
+    height: auto;
+    background-color: transparent;
+    margin-left: 35px;
+    position: relative;
+    bottom: 700px;
+    left: 30px;
+    box-sizing: border-box;
+}
+
+div#meio2_classic {
+    width: 975px;
+    height: auto;
+    background-color: transparent;
+    margin-left: 35px;
+    position: relative;
+    bottom: 600px;
+    left: 30px;
+    box-sizing: border-box;
+}
+
+p.meioclassic {
+    text-align: justify;
+    width: 900px;
+}
+
+div#textocabecalho {
+    font-family: 'Tangerine', serif;
+    font-size: 7rem;
+    color: rgb(50, 50, 75);
+    box-sizing: border-box;
+}
+
+
+/*parte comum em todas as paginas*/
+
+h2.inicio {
+    font-family: 'Tangerine', cursive;
+    font-size: 4rem;
+    text-align: center;
+    color: rgba(50, 50, 50, 0.9);
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+}
+
+p.inicio {
+    font-family: 'Courgette', cursive;
+    font-size: 1.1rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    padding-top: auto;
+    box-sizing: border-box;
+}
+
+figure.sistema {
+    height: 320px;
+    width: 270px;
+    background-color: rgba(7, 7, 7, 0.7);
+    position: relative;
+    left: 725px;
+    bottom: 675px;
+    box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+figure.gregoriano {
+    width: 542px;
+    height: 300px;
+    background-color: rgba(50, 50, 50, 0.9);
+    position: relative;
+    display: inline-block;
+    left: 85px;
+    bottom: 975px;
+    box-shadow: 2px 2px 11px #8c9c89;
+    box-sizing: border-box;
+}
+
+img.gregoriano {
+    margin: 10px;
+}
+
+img.sistema {
+    height: 310px;
+    width: 260px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+figure.foto_zeus figcaption h3 {
+    position: relative;
+    left: -50px;
+    z-index: 100;
+    bottom: 60px;
+    display: block;
+    color: white;
+}
+
+figure.foto_apolo figcaption h3 {
+    position: relative;
+    left: 50px;
+    z-index: 100;
+    bottom: 170px;
+    color: rgba(0, 0, 0, 0.7);
+    display: block;
+}
+
+figure.foto_dionisio figcaption h3 {
+    position: relative;
+    left: -25px;
+    z-index: 100;
+    bottom: 60px;
+    color: white;
+    display: block;
+}
+
+figure.foto_afrodite figcaption h3 {
+    position: relative;
+    left: -160px;
+    z-index: 100;
+    bottom: 170px;
+    color: rgba(0, 0, 0, 0.7);
+    display: block;
+}
+
+div#img_deuses {
+    background-color: rgba(75, 75, 75, .8);
+    width: 1100px;
+    height: 180px;
+    position: relative;
+    bottom: 650px;
+    display: inline-flex;
+}
+
+img.img_zeus {
+    position: relative;
+    top: 0px;
+    left: -10px;
+    width: 225px;
+    height: 150px;
+}
+
+img.img_apolo {
+    position: relative;
+    top: 0px;
+    left: -50px;
+    width: 225px;
+    height: 150px;
+}
+
+img.img_dionisio {
+    position: relative;
+    top: 0px;
+    left: -90px;
+    width: 225px;
+    height: 150px;
+}
+
+img.img_afrodite {
+    position: relative;
+    top: 0px;
+    left: -130px;
+    width: 225px;
+    height: 150px;
+}
+
+div#img_artes {
+    background-color: rgba(75, 75, 75, .8);
+    width: 96%;
+    height: 100%;
+    position: relative;
+    bottom: 675px;
+    display: flexbox;
+}
+
+img.img_moises {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 10px 10px 10px 10px;
+    width: 125px;
+    height: 225px;
+    padding: 10px 5px 10px 5px;
+    margin: 10px 5px 10px 5px;
+}
+
+img.img_gattamelata {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 225px;
+    padding: 10px 5px 10px 5px;
+    margin: 10px 5px 10px 5px;
+}
+
+img.img_kartoffelesser {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 440px;
+    height: 225px;
+    padding: 10px 5px 10px 5px;
+    margin: 10px 5px 10px 5px;
+}
+
+p {
+    font-family: 'Courgette', cursive;
+    font-size: 1.1rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+h3 {
+    font-family: 'Courgette', cursive;
+    font-size: 1.5rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+figure.timeline {
+    width: 40px;
+    height: 400px;
+    position: relative;
+    left: 25px;
+    top: 30px;
+    background-color: transparent;
+}
+
+nav ul.menu {
+    width: 300px;
+    border-color: rgb(150, 125, 50);
+    border-style: 3px solid;
+    list-style-type: "\266C";
+    margin-left: 125px;
+    padding-left: 20px;
+    position: relative;
+    top: -360px;
+}
+
+nav li.margem {
+    margin-left: 30px;
+    padding-left: 10px;
+    font-family: 'Tangerine', cursive;
+    font-size: 2.25rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(50, 50, 75);
+}
+
+a:hover {
+    color: rgb(175, 100, 0);
+    font-weight: 900;
+}
+
+ul.obra {
+    width: 300px;
+    list-style-type: "\266C";
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+li.obra {
+    margin-left: 75px;
+    padding-left: 25px;
+    font-family: 'Courgette', cursive;
+    font-size: 1.2rem;
+}
+
+ul.obra1 {
+    width: 450px;
+    list-style-type: "\266C";
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+li.obra1 {
+    margin-left: 75px;
+    padding-left: 25px;
+    font-family: 'Courgette', cursive;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+li.obra {
+    margin-left: 75px;
+    padding-left: 25px;
+    font-family: 'Courgette', cursive;
+    font-size: 1.2rem;
+}
+
+ul.obra2 {
+    width: 900px;
+    list-style-type: "\266C";
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+li.obra2 {
+    margin-left: 75px;
+    padding-left: 25px;
+    font-family: 'Courgette', cursive;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+table.filosofo {
+    width: 340px;
+    background-color: rgb(150, 125, 50);
+    border-collapse: separate;
+    table-layout: 1rem;
+    margin-top: 40px;
+    margin-left: 20px;
+    position: relative;
+    top: -20px;
+    left: -15px;
+    border-style: solid;
+    vertical-align: middle;
+}
+
+table.artista {
+    width: 470px;
+    background-color: rgb(150, 125, 50);
+    border-collapse: separate;
+    table-layout: 1rem;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-style: solid;
+    vertical-align: middle;
+    position: relative;
+    bottom: 10px;
+    right: 40px;
+}
+
+div#meiorenasc {
+    position: relative;
+    bottom: 650px;
+    background-color: transparent;
+}
+
+div#meio_romantic {
+    width: 700px;
+    position: relative;
+    bottom: 700px;
+    left: 75px;
+    background-color: transparent;
+}
+
+div#meio1_romantic {
+    width: 1045px;
+    position: relative;
+    bottom: 610px;
+    left: 35px;
+    background-color: transparent;
+}
+
+div#meio_modern {
+    width: 1045px;
+    position: relative;
+    bottom: 600px;
+    left: 75px;
+    background-color: transparent;
+}
+
+div#meio1_modern {
+    width: 1045px;
+    position: relative;
+    bottom: 575px;
+    left: 35px;
+    background-color: transparent;
+}
+
+table td#table {
+    font-family: 'Tangerine', cursive;
+    font-size: 2.5rem;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: center;
+    margin-top: auto;
+    vertical-align: top;
+    color: white;
+}
+
+li#table {
+    margin-right: auto;
+    list-style-type: "\266C";
+    color: white;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+li#table p {
+    margin-left: auto;
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-size: 1.25rem;
+}
+
+.table1 {
+    width: 84%;
+    background-color: rgb(150, 125, 50);
+    border-collapse: separate;
+    border-spacing: 8px;
+    margin-top: 50px;
+    margin-left: 65px;
+    border-style: solid;
+    vertical-align: top;
+    position: relative;
+    top: 20px;
+    left: -30px;
+}
+
+table td#table1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 2.5rem;
+    margin-left: 10px;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 15px;
+    vertical-align: top;
+    color: white;
+}
+
+li#table1 {
+    margin-right: auto;
+    list-style-type: "\266C";
+    color: white;
+    margin-left: 25px;
+    margin-top: 0px;
+    padding-left: 20px;
+    list-style-type: "\266C";
+}
+
+li#table1 p {
+    margin-left: auto;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Courgette', cursive;
+    font-size: 1.25rem;
+}
+
+.table2 {
+    width: 70%;
+    background-color: rgb(150, 125, 50);
+    border-collapse: separate;
+    border-spacing: 8px;
+    table-layout: auto;
+    margin-top: auto;
+    margin-left: 65px;
+    border-style: solid;
+    vertical-align: top;
+    position: relative;
+    bottom: 610px;
+    left: -25px;
+}
+
+table td#table2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 2.5rem;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: center;
+    margin-top: auto;
+    vertical-align: top;
+    color: white;
+}
+
+li#table2 {
+    margin-right: auto;
+    list-style-type: "\266C";
+    color: white;
+    margin-left: 20px;
+    padding-left: 20px;
+    list-style-type: "\266C";
+}
+
+li#table2 p {
+    margin-left: auto;
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-size: 1.25rem;
+}
+
+.table3 {
+    width: 65%;
+    background-color: rgb(150, 125, 50);
+    border-collapse: separate;
+    border-spacing: 8px;
+    table-layout: auto;
+    margin-top: auto;
+    margin-left: 65px;
+    border-style: solid;
+    vertical-align: top;
+    position: relative;
+    bottom: -50px;
+}
+
+table td#table3 {
+    font-family: 'Tangerine', cursive;
+    font-size: 2.5rem;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: center;
+    margin-top: auto;
+    vertical-align: top;
+    color: white;
+}
+
+li#table3 {
+    margin-right: auto;
+    list-style-type: "\266C";
+    color: white;
+    margin-left: 20px;
+    padding-left: 20px;
+    list-style-type: "\266C";
+}
+
+li#table3 p {
+    margin-left: auto;
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-size: 1.25rem;
+}
+
+.table4 {
+    width: 72%;
+    background-color: rgb(150, 125, 50);
+    border-collapse: separate;
+    border-spacing: 8px;
+    table-layout: auto;
+    margin-top: auto;
+    margin-left: 65px;
+    border-style: solid;
+    vertical-align: top;
+    position: relative;
+    bottom: 555px;
+    left: -50px;
+}
+
+table td#table4 {
+    font-family: 'Tangerine', cursive;
+    font-size: 2.5rem;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: center;
+    margin-top: auto;
+    vertical-align: top;
+    color: white;
+}
+
+li#table4 {
+    margin-right: auto;
+    list-style-type: "\266C";
+    color: white;
+    margin-left: 20px;
+    padding-left: 20px;
+    list-style-type: "\266C";
+}
+
+li#table4 p {
+    margin-left: auto;
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-size: 1.25rem;
+}
+
+table.romantic {
+    width: 63%;
+    background-color: rgb(150, 125, 50);
+    border-collapse: separate;
+    border-spacing: 8px;
+    table-layout: auto;
+    margin-top: auto;
+    margin-left: 65px;
+    border-style: solid;
+    vertical-align: top;
+    position: relative;
+    bottom: 550px;
+    left: 0px;
+}
+
+table td#romantic {
+    font-family: 'Tangerine', cursive;
+    font-size: 2.5rem;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: center;
+    margin-top: auto;
+    vertical-align: top;
+    color: white;
+}
+
+li#romantic {
+    margin-right: auto;
+    list-style-type: "\266C";
+    color: white;
+    margin-left: 20px;
+    padding-left: 20px;
+    list-style-type: "\266C";
+}
+
+li#romantic p {
+    margin-left: auto;
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-size: 1.25rem;
+}
+
+table.modern {
+    width: 57%;
+    background-color: rgb(150, 125, 50);
+    border-collapse: separate;
+    border-spacing: 8px;
+    table-layout: auto;
+    margin-top: auto;
+    margin-left: 65px;
+    border-style: solid;
+    vertical-align: top;
+    position: relative;
+    bottom: 775px;
+    left: 75px;
+}
+
+table td#modern {
+    font-family: 'Tangerine', cursive;
+    font-size: 2.5rem;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: center;
+    margin-top: auto;
+    vertical-align: top;
+    color: white;
+}
+
+li#modern {
+    margin-right: auto;
+    list-style-type: "\266C";
+    color: white;
+    margin-left: 20px;
+    padding-left: 20px;
+    list-style-type: "\266C";
+}
+
+li#modern p {
+    margin-left: auto;
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-size: 1.25rem;
+}
+
+table tr,
+td {
+    border-style: solid;
+    border-collapse: separate;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 15px;
+    border-color: white;
+    background-color: black;
+}
+
+span.palavra {
+    color: navy
+}
+
+div#foto2 {
+    background-color: whitesmoke;
+    width: 128px;
+    height: 168px;
+    padding: 10px;
+    margin-left: 125px;
+    margin-top: 30px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    bottom: 100%;
+    left: 0px;
+}
+
+div#foto2 {
+    background-color: whitesmoke;
+    width: 128px;
+    height: 170px;
+    padding: 10px;
+    margin-left: 125px;
+    margin-top: 30px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    bottom: 100%;
+    left: 25px;
+}
+
+div#foto3 {
+    background-color: whitesmoke;
+    border-color: black;
+    height: 450px;
+    padding: 10px;
+    margin-left: 125px;
+    margin-top: 30px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    bottom: 200px;
+    left: 0px;
+}
+
+div#lateral {
+    width: 430px;
+    height: auto;
+    background-color: white;
+    position: relative;
+    bottom: 650px;
+    left: 470px;
+}
+
+img.josquim {
+    width: 8.3rem;
+    height: 9.2rem;
+    position: relative;
+    left: 0px;
+    top: 10px;
+}
+
+div#end_romantic {
+    width: 1000px;
+    height: 70px;
+    background-color: transparent;
+    margin-left: 30px;
+    position: relative;
+    bottom: 610px;
+    left: 125px;
+    box-sizing: border-box;
+}
+
+div#end_modern {
+    width: 1000px;
+    height: 70px;
+    background-color: transparent;
+    margin-left: 30px;
+    position: relative;
+    bottom: 1180px;
+    left: 125px;
+    box-sizing: border-box;
+}
+
+div#end_classic {
+    width: 1000px;
+    height: 70px;
+    background-color: transparent;
+    margin-left: 30px;
+    position: relative;
+    bottom: 625px;
+    left: 125px;
+    box-sizing: border-box;
+}
+
+div#end_barroque {
+    width: 1000px;
+    height: 70px;
+    background-color: transparent;
+    margin-left: 30px;
+    position: relative;
+    bottom: 975px;
+    left: 25px;
+    box-sizing: border-box;
+}
+
+div#end_renasc {
+    width: 1000px;
+    height: 70px;
+    background-color: transparent;
+    margin-left: 30px;
+    position: relative;
+    bottom: 1810px;
+    left: 0px;
+    box-sizing: border-box;
+}
+
+div#end_mediumage {
+    width: 1000px;
+    height: 70px;
+    background-color: transparent;
+    margin-left: 30px;
+    position: relative;
+    bottom: 1910px;
+    left: 0px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,210 @@
+div#animation_mediumage {
+    background-color: white;
+    width: 570px;
+    height: 280px;
+    margin-left: 125px;
+    padding: 0 0 0 0;
+    position: relative;
+    bottom: 120px;
+    left: 60px;
+    box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
+    z-index: 50;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+div.animation_texto_vitri {
+    display: flexbox;
+    background-color: transparent;
+    text-align: center;
+    top: 5px;
+    left: 0;
+    opacity: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: 35px;
+    z-index: 0;
+}
+
+div.animation_texto_vitri p {
+    font-family: 'Courgette', cursive;
+    font-size: 1.1rem;
+    text-align: justify;
+    color: black;
+    animation-name: mover_texto_vitri;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    transition-timing-function: linear;
+}
+
+div.animation_texto_hildegard {
+    background-color: transparent;
+    width: 525px;
+    height: 390px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    bottom: -170px;
+    left: 10px;
+}
+
+div.animation_texto_hildegard p {
+    font-family: 'Courgette', cursive;
+    font-size: 1.1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+div#animation_barroque {
+    background-color: white;
+    width: 570px;
+    height: 280px;
+    margin-left: 125px;
+    padding-left: 0 0 0 0;
+    text-align: justify;
+    position: relative;
+    bottom: 750px;
+    left: 50px;
+    box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
+}
+
+div#animation_classic {
+    background-color: white;
+    width: 570px;
+    height: 280px;
+    margin-left: 125px;
+    padding-left: 0 0 0 0;
+    text-align: justify;
+    position: relative;
+    bottom: 705px;
+    left: 50px;
+    box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
+}
+
+div#animation_romantic {
+    background-color: white;
+    width: 570px;
+    height: 180px;
+    margin-left: 125px;
+    padding-left: 0 0 0 0;
+    text-align: justify;
+    position: relative;
+    bottom: 700px;
+    left: 100px;
+    box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
+}
+
+div#animation_modern {
+    background-color: white;
+    width: 570px;
+    height: 280px;
+    margin-left: 125px;
+    padding-left: 0 0 0 0;
+    text-align: justify;
+    position: relative;
+    bottom: 930px;
+    left: 160px;
+    box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
+}
+
+div#animation_renasc {
+    background-color: white;
+    width: 570px;
+    height: 280px;
+    margin-left: 125px;
+    padding-left: 0 0 0 0;
+    position: relative;
+    bottom: 735px;
+    left: 60px;
+    box-shadow: inset 0 0 1em gold, 0 0 1em rgba(50, 50, 50, 0.9);
+}
+
+p.animation_texto_josquim {
+    text-align: justify;
+    position: absolute;
+}
+
+div#animation_palestrina {
+    background-color: transparent;
+    width: 555px;
+    height: auto;
+    margin-left: 130px;
+    padding-left: 5px 5px 5px 5px;
+    position: relative;
+    bottom: 710px;
+    left: 65px;
+}
+
+p.aniumation_texto_palestrina {
+    text-align: justify;
+    position: relative;
+    padding-right: 0;
+}
+
+div#animation_byrd {
+    background-color: transparent;
+    width: 555px;
+    height: auto;
+    margin-left: 130px;
+    padding-left: 5px 5px 5px 5px;
+    position: relative;
+    bottom: 650px;
+    left: 65px;
+}
+
+p.animation_texto_byrd {
+    text-align: justify;
+    position: absolute;
+    padding-right: 0;
+}
+
+div#animation_gabrielli {
+    background-color: transparent;
+    width: 555px;
+    height: auto;
+    margin-left: 130px;
+    padding-left: 5px 5px 5px 5px;
+    position: relative;
+    bottom: 370px;
+    left: 65px;
+}
+
+p.animation_texto_gabrielli {
+    text-align: justify;
+    position: absolute;
+    padding-right: 0;
+}
+
+div#animation_monteverdi {
+    background-color: transparent;
+    width: 555px;
+    height: auto;
+    margin-left: 130px;
+    padding-left: 5px 5px 5px 5px;
+    position: relative;
+    bottom: 140px;
+    left: 65px;
+}
+
+p.animation_texto_monteverdi {
+    text-align: justify;
+    position: absolute;
+    padding-right: 0;
+}
+
+@keyframes mover_texto_vitri {
+    from {
+        opacity: -1;
+        transform: translatey(300%);
+    }
+    to {
+        opacity: 2;
+        transform: translatey(0%)
+    }
+}
