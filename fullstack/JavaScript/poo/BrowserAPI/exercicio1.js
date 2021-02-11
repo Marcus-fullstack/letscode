@@ -3,6 +3,7 @@ function validarstring(valor, nomeparametro) {
     if (typeof(valor) !== "string") throw `${nomeparametro} deve conter valores do tipo string.`;
 }
 
+function validarobjeto()
 
 class HTMLBaseElement {
     constructor(tagname, id, classlist = [], name, style = {}) {
@@ -27,8 +28,17 @@ class HTMLBaseElement {
         this._id = newid;
     }
     set classlist(newlist) {
-        validarstring(newlist, 'classlist');
-        this_classlist = newlist;
+        if (!this.newlist.isAray()) throw `Nao array`;
+
+        try {
+            newlist.forEach(item => {
+                validarstring(item, 'item');
+
+            })
+            this_classlist = newlist;;
+        } catch (err) {
+            throw "os itens do Classlist nao é string";
+        }
     }
     set name(newname) {
         validarstring(newname, 'name');
@@ -57,10 +67,10 @@ class HTMLParentElement extends HTMLBaseElement {
 
     }
     appendChild(child) {
-
+        //aqui
     }
     removeChildBy(property, value) {
-
+        //aqui
     }
 }
 //q3
@@ -74,13 +84,13 @@ class HTMLInputElement extends HTMLBaseElement {
     get value() { return this.value; }
     get type() { return this.type; }
     set value(newvalue) {
-        validarstring(newvalue, 'value');
-        // pode ser feito dessa forma, mas podemos simplificar usando o metodo include para testar e no adicionar a chave  o valor
-        //if (typeof(newvalue) !== 'text' && typeof(newvalue) !== 'email' && typeof(newvalue) !== 'password' && typeof(newvalue) !== 'date' && typeof(newvalue) !== 'color' && typeof(newvalue) !== 'number') throw "O valor que está querendo armazenar difere dos dados do exercicio";
-
+        validarstring(newvalue, 'value')
+            //aqui 
         let validatevalue = ["text", "email", "password", "date", "number"];
         if (newvalue !== find(validateValue)) throw "Os valores e a chave deve corresponder a texto, email, senha,data,numero";
-        this.value = `${newvalue}`;
+        this.value = `
+            $ { newvalue }
+            `;
 
     }
     set type(newtype) {
@@ -133,7 +143,9 @@ class HTMLImageElement extends HTMLBaseElement {
         let validateimg = ["id", "class", "evento", "sourceimg"];
         if (parametrosimg !== find(validateimg)) throw "Se tiver algo diferente do id, a classe ou evento, deu erro no sistema.";
         //nesse find crie uma variavel para o check dos parametros da imagem
-        this.img = `${parametrosimg}`;
+        this.img = `
+            $ { parametrosimg }
+            `;
     }
 }
 //const conteudoimg = new HTMLImageElement(); 
