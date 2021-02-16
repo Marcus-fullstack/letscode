@@ -31,7 +31,7 @@ class Employee extends Company {
     }
 
     checkIn() {
-        //esse item vai para o main1 para funcionários, tem que tirar checkn
+
 
     }
 

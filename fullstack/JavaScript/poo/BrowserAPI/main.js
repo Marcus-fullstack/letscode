@@ -24,7 +24,7 @@ while (true) {
 
             while (optDev !== 0) {
                 console.log(`
-                Bem vindo desenvolvedor
+                Bem vindo desenvolvedor 
             
                 Escolha uma das opções abaixo, caso não queira alterar direto no banco de dados.
             

@@ -170,6 +170,12 @@
                     "email": "j@amazon.com",
                     "password": "123123123123",
                     "attendanceInfo": []
+                },
+                {
+                    "name": "ze",
+                    "email": "eeee",
+                    "password": "ffff",
+                    "attendanceInfo": []
                 }
             ]
         },
@@ -198,7 +204,14 @@
                 "email": "Ozzy@avantec",
                 "password": "666"
             },
-            "employees": []
+            "employees": [
+                {
+                    "name": "nova era",
+                    "email": "aa@aaa.com",
+                    "password": "8888",
+                    "attendanceInfo": []
+                }
+            ]
         }
     ]
 }

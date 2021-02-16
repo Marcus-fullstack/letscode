@@ -23,5 +23,7 @@ const finishhours = starthours.replace(hours, endhours)
 console.log(finishhours)
 console.log(hours);
 if (hours + 8 > 24) {
-    const diferenca = 24 - hours
+    const diferenca = 24 - hours;
+
 }
+console.log(diferenca)
