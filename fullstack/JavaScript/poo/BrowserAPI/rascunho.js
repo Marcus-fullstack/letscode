@@ -80,7 +80,7 @@ class Employees extends Companies {
         this._password = newpassword;
     }
 
-    /*   set day_atual(newday) {
+    /*  set day_atual(newday) {
         const data = new Date();
         data.toDateString('pt-BR');
         const dia = data.getUTCDate();

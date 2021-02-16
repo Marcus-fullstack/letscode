@@ -276,7 +276,7 @@
         width: 950px;
         height: 150px;
         position: relative;
-        bottom: 775px;
+        bottom: 720px;
         right: 40px;
         background-image: url(background.jpg);
     }
@@ -500,23 +500,23 @@
     
     div aside {
         width: 200px;
-        height: 745px;
-        background-color: white;
+        height: 675px;
+        background-color: transparent;
         position: relative;
-        bottom: 725px;
+        bottom: 800px;
         left: 675px;
     }
     
     img#coracao {
         position: relative;
-        top: 50px;
-        right: 15px;
+        top: 25px;
+        right: 25px;
     }
     
     img#eletro {
         position: relative;
-        right: 15px;
-        top: 150px;
+        right: 25px;
+        top: 200px;
     }
     
     div#subject {

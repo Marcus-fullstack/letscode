@@ -9,13 +9,19 @@
 const newdate = new Date()
 console.log(this.newdate)*/
 
-const data = new Date();
-data.toDateString('pt-BR'); //tem que mudar
-const dia = data.getUTCDate();
-const mes = (data.getUTCMonth() + 1);
-const ano = data.getUTCFullYear();
-console.log(dia)
-
+const StartDate = new Date();
+StartDate.toDateString('pt-BR'); //tem que mudar
+const dia = StartDate.getUTCDate();
+const mes = (StartDate.getUTCMonth() + 1);
+const ano = StartDate.getUTCFullYear();
 console.log(`${dia}/${mes}/${ano}`)
-const time = new Date().toLocaleTimeString('pt-BR');
-console.log(time)
+const starthours = new Date().toLocaleTimeString('pt-BR');
+console.log(starthours)
+let hours = JSON.parse(starthours[0].concat(starthours[1])) //separar horas e somar 8 horas
+let endhours = hours + 8;
+const finishhours = starthours.replace(hours, endhours)
+console.log(finishhours)
+console.log(hours);
+if (hours + 8 > 24) {
+    const diferenca = 24 - hours
+}

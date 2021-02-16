@@ -1,5 +1,6 @@
+const { validateString, readDb, insertDb } = require('../functions/Functions');
 class Company {
-
+    //criação da empresa com o administrador
     constructor(company, name, email, password) {
         this._company = company,
             this._name = name,
@@ -28,9 +29,26 @@ class Company {
     }
 
     createRegistry() {
-        console.log(this.company, this.name, this.email, this.password)
+        const newCompany = {
+            "Company_name": this.company,
+            "adminUser": {
+                "name": this.name,
+                "email": this.email,
+                "password": this.password
+            },
+            employees: []
+                //employees inserido pelo administrador da empresa x
+        }
         console.log('Inserindo no banco de dados')
             //Escrever rotina para escrever no arquivo db.json
+        const getDb = readDb()
+        console.log(getDb.companies)
+        let tempData = getDb.companies
+        tempData.push(newCompany)
+        let putDb = {
+            companies: tempData
+        }
+        insertDb(putDb)
     }
 }
 
