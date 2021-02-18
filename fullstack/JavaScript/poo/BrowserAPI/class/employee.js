@@ -1,23 +1,27 @@
 const Company = require('./Company')
 const { validateString, readDb, insertDb } = require('../functions/Functions')
+const { dataentrada, datasaida } = require('/main');
+
 
 class Employee extends Company {
-    constructor(company, name, email, password, attendanceInfo) {
+    constructor(company, name, email, password, attendanceInfo = []) {
         super(company, name, email, password)
-        this._attendanceInfo = attendanceInfo || []
+        this._attendanceInfo = attendanceInfo;
     }
 
     get attendanceInfo() { return this._attendanceInfo }
     set attendanceInfo(inOut) {
-        validarString(inOut)
-        this._attendanceInfo = inOut
+        validarString();
+        this.checkIn();
+        this.checkOut();
+        this._attendanceInfo = inOut;
     }
 
     register() {
-        const getDb = readDb()
-        const companiesList = getDb.companies
-        let foundIndex = companiesList.findIndex(companyName => companyName.name === this.company)
-        let employeeList = companiesList[foundIndex].employees
+        const getDb = readDb();
+        const companiesList = getDb.companies;
+        let foundIndex = companiesList.findIndex(companyName => companyName.name === this.company);
+        let employeeList = companiesList[foundIndex].employees;
         const newEmployee = {
             "name": this.name,
             "email": this.email,
@@ -31,11 +35,13 @@ class Employee extends Company {
     }
 
     checkIn() {
-
-
+        const entrada = dataentrada;
+        return insertDb(entrada);
     }
 
     checkOut() {
+        const saida = datasaida;
+        insertdb(saida)
 
     }
 }

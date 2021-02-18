@@ -2,10 +2,10 @@ const { validateString, readDb, insertDb } = require('../functions/Functions');
 class Company {
     //criação da empresa com o administrador
     constructor(company, name, email, password) {
-        this._company = company,
-            this._name = name,
-            this._email = email,
-            this._password = password
+        this._company = company;
+        this._name = name;
+        this._email = email;
+        this._password = password;
     }
 
     get company() { return this._company }
@@ -37,7 +37,7 @@ class Company {
                 "password": this.password
             },
             employees: []
-                //employees inserido pelo administrador da empresa x
+
         }
         console.log('Inserindo no banco de dados')
             //Escrever rotina para escrever no arquivo db.json

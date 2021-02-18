@@ -1,7 +1,7 @@
 const Company = require('./class/Company')
 const Employee = require('./class/Employee')
 const input = require('readline-sync')
-const { readDb, verifyIfCompanyExists, verifyUser } = require('./functions/Functions')
+const { readDb, verifyIfCompanyExists, verifyUser, insertDb } = require('./functions/Functions')
 
 while (true) {
     const getDb = readDb()
@@ -127,53 +127,66 @@ while (true) {
 
             while (optFunc !== 0) {
                 console.log(`
-                    1 - Registrar ponto (input/saida)
-                    2 - Consultar registros
-                    3 - Consultar banco de horas
-                    4 - Alterar senha
+                    1 - Registrar ponto Entrada
+                    2 - Registrar ponto de Saida
+                    3 - Consultar registros
+                    4 - Consultar banco de horas
+                    5 - Alterar senha
                     0 - Sair
                 `)
-                optFunc = parseInt(input.question("Digite uma opção: "))
+
 
                 switch (optFunc) {
                     case 1:
+                        optFunc = parseInt(input.question("Digite uma opção: "));
                         const StartDate = new Date();
                         StartDate.toDateString('pt-BR'); //tem que mudar
-                        const dia = StartDate.getUTCDate();
-                        const mes = (StartDate.getUTCMonth() + 1);
-                        const ano = StartDate.getUTCFullYear();
+                        dia = StartDate.getUTCDate();
+                        mes = (StartDate.getUTCMonth() + 1);
+                        ano = StartDate.getUTCFullYear();
                         let starthours = new Date().toLocaleTimeString('pt-BR');
-                        let hours = JSON.parse(starthours[0].concat(starthours[1])) //separar horas, concatenei e somar 8 horas, como estou usando numeracao brasileira, 24hs em vez de 12,
-                        let endhours = hours + 8;
-                        let finishedhours = starthours.replace(hours, endhours)
-                        return `{"Dia": ${dia}/${mes}/${ano}, "horario de entrada": ${starthours},
-                        {"Dia": ${dia}/${mes}/${ano}, "horario de saida": ${finishedhours} }`;
-
-                        break
-                        //precisa mandar esse return pro attendanceinfo
+                        let hours = JSON.parse(starthours[0].concat(starthours[1]));
+                        const datantrada = Object.assign(`"Dia": ${dia}/${mes}/${ano}, "horario de entrada": ${starthours}`)
+                        return dataentrada;
+                        break;
                     case 2:
-                        console.log('Consultar Registros')
-                        break
+                        //aqui tenho que salvar no banco de dados
+                        const FinishedDate = new Date();
+                        FinishedDate.toDateString('pt-BR'); //tem que mudar
+                        const dia = FinishedDate.getUTCDate();
+                        const mes = (FinishedDate.getUTCMonth() + 1);
+                        const ano = FinishedDate.getUTCFullYear();
+                        let FinishedHours = new Date().toLocaleTimeString('pt-BR');
+                        hours = JSON.parse(FinishedHours[0].concat(FinishedHours[1]));
+                        const datasaida = Object.assign(`"Dia": ${dia}/${mes}/${ano}, "horario de Saida": ${FinishedHours}`)
+                        return datasaida;
+
+                        break;
+
                     case 3:
-                        console.log('Consultar banco de horas')
+                        console.log('Consultar Registros');
                         break
                     case 4:
-                        console.log('Alterar senha')
+                        console.log('Consultar banco de horas');
+                        break
+                    case 5:
+                        console.log('Alterar senha');
                         break
                     case 0:
-                        console.log('Encerrando sessão')
-                        console.clear()
+                        console.log('Encerrando sessão');
+                        console.clear();
                         break
                     default:
-                        console.log('Opcao invalida')
+                        console.log('Opcao invalida');
                         break
                 }
             }
             break
 
         default:
-            console.log('User not found! Try again')
-            break
+            console.log('User not found! Try again');
+            break;
     }
 
 }
+module.exports;
