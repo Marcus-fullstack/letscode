@@ -138,7 +138,7 @@ while (true) {
 
                 switch (optFunc) {
                     case 1:
-                        optFunc = parseInt(input.question("Digite uma opção: "));
+                        //optFunc = parseInt(input.question("Digite uma opção: "));
                         const StartDate = new Date();
                         StartDate.toDateString('pt-BR'); //tem que mudar
                         dia = StartDate.getUTCDate();

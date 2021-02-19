@@ -1,4 +1,4 @@
-const StartDate = new Date();
+/*const StartDate = new Date();
 
 StartDate.toDateString('pt-BR'); //tem que mudar
 const dia = StartDate.getUTCDate();
@@ -22,4 +22,21 @@ if (endhours > 24) {
     const finishedhours = starthours.replace(hours[0], endhours) //se a data de entrada
     console.log(`"Data":${dia}/${mes}/${ano}, "Data de Saida": ${finishedhours}`)
 }
-console.log(endDate)
+console.log(endDate)*/
+const StartDate = new Date();
+StartDate.toDateString('pt-BR'); //tem que mudar
+dia = StartDate.getUTCDate();
+mes = (StartDate.getUTCMonth() + 1);
+ano = StartDate.getUTCFullYear();
+let starthours = new Date().toLocaleTimeString('pt-BR');
+let hours = JSON.parse(starthours[0].concat(starthours[1]));
+console.log(`"Dia": ${dia}/${mes}/${ano}, "horario de entrada": ${starthours}`);
+
+const FinishedDate = new Date();
+FinishedDate.toDateString('pt-BR'); //tem que mudar
+dia = FinishedDate.getUTCDate();
+mes = (FinishedDate.getUTCMonth() + 1);
+ano = FinishedDate.getUTCFullYear();
+let FinishedHours = new Date().toLocaleTimeString('pt-BR');
+hours = JSON.parse(FinishedHours[0].concat(FinishedHours[1]));
+console.log(`"Dia": ${dia}/${mes}/${ano}, "horario de Saida": ${FinishedHours}`)
