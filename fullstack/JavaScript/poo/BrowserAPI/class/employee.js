@@ -1,6 +1,7 @@
 const Company = require('./Company')
 const { validateString, readDb, insertDb } = require('../functions/Functions')
-const { dataentrada, datasaida } = require('/main');
+import dataentrada from main;
+import datasaida from main;
 
 
 class Employee extends Company {

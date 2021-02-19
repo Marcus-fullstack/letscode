@@ -189,4 +189,5 @@ while (true) {
     }
 
 }
-module.exports;
+export { dataentrada };
+export { datasaida };
