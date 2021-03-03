@@ -2,7 +2,7 @@
     div#interface {
         background-color: whitesmoke;
         width: 100%;
-        height: 1000px;
+        height: 1153px;
         margin: auto;
         padding: auto;
         box-sizing: border-box;
@@ -21,43 +21,128 @@
         box-shadow: 0px 0px 10px rgba(43, 27, 27, 0.6);
     }
     
-    #menu {
-        width: 1000px;
-        height: 50px;
-        background-color: whitesmoke;
+    #logo_company {
+        width: 325px;
+        height: 125px;
+        background-color: transparent;
         position: relative;
-        bottom: 20px;
-        left: 250px;
+        transform: scale(.9);
+        bottom: 6px;
+    }
+    
+    #menu {
+        width: 1100px;
+        height: 60px;
+        background-color: transparent;
+        position: relative;
+        bottom: 55px;
+        left: 270px;
+        transform: scale(.9);
     }
     
     #menu ul,
     li {
+        width: 120px;
         list-style: none;
         display: inline-block;
         text-align: center;
         justify-content: center;
-        background-color: brown;
-        margin: 10px;
+        background-color: silver;
+        margin: 7px;
         padding: 5px;
         overflow-wrap: inherit;
+        font-family: 'Lora', serif;
+        text-align: center;
     }
     
     #apresentacao {
         width: 1200px;
-        height: 600px;
+        height: 825px;
         position: relative;
         background-color: white;
         margin: 20px;
         padding: 20px;
-        top: 225px;
+        top: 150px;
         left: 25px;
         text-align: justify;
     }
     
-    #quemsomos {
-        width: 1100px;
+    a {
+        text-decoration: none;
+        color: navy;
+        text-align: center;
+    }
+    
+    a:hover {
+        text-decoration: none;
+        color: red;
+        text-align: center;
+    }
+    
+    #time {
+        width: 1150px;
+        position: relative;
+        left: -10px;
+        background-color: whitesmoke;
+        margin: 15px;
+        padding: 15px;
+        border-style: groove ridge inset outset;
+        box-sizing: content-box;
+        box-shadow: inset outset 2px 2px 2px rgb(0, 0, 0);
+        height: 700px;
+    }
+    
+    #foto_marcus {
+        width: 200px;
+        height: 225px;
         position: relative;
         left: 25px;
+        top: 25px;
+        background-color: rgb(0, 0, 50);
+        border-style: groove ridge inset;
+    }
+    
+    #marcus {
+        width: 850px;
+        position: relative;
+        left: 240px;
+        bottom: 215px;
+        background-color: whitesmoke;
+        margin: 15px;
+        padding: 15px;
+        border-style: groove ridge inset outset;
+        box-sizing: content-box;
+        box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset rgb(0, 0, 50) 0 -1px 9px;
+    }
+    
+    #foto_erik {
+        width: 200px;
+        height: 225px;
+        position: relative;
+        left: 25px;
+        bottom: 200px;
+        background-color: rgb(0, 0, 50);
+        border-style: groove ridge inset;
+    }
+    
+    #erik {
+        width: 850px;
+        position: relative;
+        left: 240px;
+        bottom: 440px;
+        background-color: whitesmoke;
+        margin: 15px;
+        padding: 15px;
+        border-style: groove ridge inset outset;
+        box-sizing: content-box;
+        box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset rgb(0, 0, 50) 0 -1px 9px;
+    }
+    
+    #quemsomos {
+        width: 1150px;
+        position: relative;
+        left: -10px;
+        top: -10px;
         background-color: whitesmoke;
         margin: 15px;
         padding: 15px;
@@ -66,14 +151,42 @@
         box-shadow: inset outset 2px 2px 2px rgb(0, 0, 0);
     }
     
+    .somos {
+        width: 1050px;
+        position: relative;
+        left: 25px;
+        background-color: whitesmoke;
+        margin: 10px;
+        padding: 10px;
+        border-style: groove ridge outset;
+        box-sizing: content-box;
+        box-shadow: inset outset 2px 2px 2px rgb(0, 0, 0);
+        font-family: 'Lora', serif;
+        text-align: justify;
+    }
+    
+    .somos:hover {
+        width: 1050px;
+        position: relative;
+        left: 25px;
+        background-color: rgba(148, 139, 139, 0.6);
+        margin: 10px;
+        padding: 10px;
+        border-style: groove ridge inset outset;
+        box-sizing: content-box;
+        box-shadow: inset outset 2px 2px 2px rgb(0, 0, 0);
+        font-family: 'Lora', serif;
+        text-align: justify;
+    }
+    
     #servicos {
         width: 475px;
         position: relative;
-        top: 25px;
+        top: -5px;
         left: 0px;
         background-color: whitesmoke;
-        margin: 15px;
-        padding: 15px;
+        margin: 10px;
+        padding: 10px;
         border-style: groove ridge inset outset;
         box-sizing: content-box;
         box-shadow: inset outset 2px 2px 2px rgb(0, 0, 0);
@@ -84,10 +197,61 @@
         position: relative;
         left: 550px;
         width: 600px;
-        bottom: 198px;
-        margin: 15px;
-        padding: 15px;
+        bottom: 400px;
+        margin: 10px;
+        padding: 10px;
         border-style: groove ridge inset outset;
         box-sizing: content-box;
         box-shadow: inset outset 2px 2px 2px rgb(0, 0, 0);
+    }
+    
+    .servicos ol li {
+        width: 425px;
+        position: relative;
+        background-color: transparent;
+        left: -25px;
+        text-align: left;
+        border-style: groove ridge inset outset;
+        box-sizing: content-box;
+    }
+    
+    .servicos ol li:hover {
+        width: 425px;
+        position: relative;
+        background-color: rgba(148, 139, 139, 0.6);
+        left: -25px;
+        text-align: left;
+        border-style: groove ridge outset;
+        box-sizing: content-box;
+    }
+    
+    .valores ol li {
+        width: 525px;
+        position: relative;
+        background-color: transparent;
+        bottom: 0px;
+        text-align: left;
+        border-style: groove ridge inset outset;
+        left: -25px;
+        box-sizing: content-box;
+    }
+    
+    .valores ol li:hover {
+        width: 525px;
+        position: relative;
+        background-color: rgba(148, 139, 139, 0.6);
+        bottom: 0px;
+        text-align: left;
+        border-style: groove ridge outset;
+        left: -25px;
+    }
+    
+    #footer {
+        width: 98.8%;
+        height: 125px;
+        background-color: rgba(165, 158, 158, 0.6);
+        position: absolute;
+        top: 1050px;
+        left: 8px;
+        box-sizing: content-box;
     }

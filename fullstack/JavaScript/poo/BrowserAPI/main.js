@@ -29,7 +29,6 @@ while (true) {
                 Escolha uma das opções abaixo, caso não queira alterar direto no banco de dados.
             
                 1 - Criar nova empresa
-                2 - Alterar senha de admin
                 0 - Sair
                 `)
 

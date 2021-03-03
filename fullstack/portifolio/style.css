@@ -41,10 +41,10 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: flex-end;
-        width: 30%;
+        width: 34%;
         position: absolute;
         top: 50px;
-        left: 565px;
+        left: 550px;
     }
     
     nav#menu li {
@@ -358,12 +358,61 @@
         top: -50px;
         left: 25px;
         background-color: white;
+        display: none;
+    }
+    
+    div#article3 {
+        width: 630px;
+        height: 800px;
+        position: relative;
+        top: -50px;
+        left: 25px;
+        background-color: white;
     }
     
     div#article h2 {
         font-size: 28px;
         text-align: center;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    table#doencas {
+        border-collapse: separate;
+        text-align: justify;
+        height: auto;
+    }
+    
+    td {
+        border: rgba(200, 200, 200, .7) solid .3px;
+        text-align: justify;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 5px;
+        padding-bottom: 0px;
+        vertical-align: top;
+    }
+    
+    th {
+        text-align: center;
+    }
+    
+    td.ajuste {
+        width: 333px;
+    }
+    
+    p#table {
+        text-align: justify;
+        vertical-align: top;
+        position: relative;
+        top: -15px;
+    }
+    
+    p#reason {
+        text-align: left;
+        vertical-align: top;
+        position: relative;
+        top: -10px;
+        font-size: 15px;
     }
     
     div#article2 h2 {
@@ -409,6 +458,7 @@
     }
     
     div.menu_article {
+        background-size: contain;
         width: 300px;
         height: 22px;
         background-color: white;
@@ -431,6 +481,166 @@
         justify-content: space-around;
         margin-left: 30px;
         margin-top: 5px;
+    }
+    
+    div.led_effect_yellow {
+        margin: 2px 2px;
+        width: 8px;
+        height: 9px;
+        transform: rotateY(15deg);
+        border-radius: 50%;
+        background-color: black;
+        box-shadow: rgba(10, 10, 10, 0.3) -1px 1px 7px 1px, inset #808002 1px -1px 4px, #FF0 0 2px 11px;
+        -webkit-animation: blinkYellow 1s infinite;
+        -moz-animation: blinkYellow 1s infinite;
+        -ms-animation: blinkYellow 1s infinite;
+        -o-animation: blinkYellow 1s infinite;
+        animation: blinkYellow 1s infinite;
+    }
+    
+    div.led_effect_yellow1 {
+        margin: 2px 2px;
+        width: 8px;
+        height: 9px;
+        transform: rotateY(15deg);
+        border-radius: 50%;
+        background-color: black;
+        box-shadow: rgba(10, 10, 10, 0.3) -1px 1px 7px 1px, inset #808002 1px -1px 4px, #FF0 0 2px 11px;
+        -webkit-animation: blinkYellow 1s infinite;
+        -moz-animation: blinkYellow 1s infinite;
+        -ms-animation: blinkYellow 1s infinite;
+        -o-animation: blinkYellow 1s infinite;
+        animation: blinkYellow 1s infinite;
+        visibility: hidden;
+    }
+    
+    div.led_effect_yellow2 {
+        margin: 2px 2px;
+        width: 8px;
+        height: 9px;
+        transform: rotateY(15deg);
+        border-radius: 50%;
+        background-color: black;
+        box-shadow: rgba(10, 10, 10, 0.3) -1px 1px 7px 1px, inset #808002 1px -1px 4px, #FF0 0 2px 11px;
+        -webkit-animation: blinkYellow 1s infinite;
+        -moz-animation: blinkYellow 1s infinite;
+        -ms-animation: blinkYellow 1s infinite;
+        -o-animation: blinkYellow 1s infinite;
+        animation: blinkYellow 1s infinite;
+        visibility: hidden;
+    }
+    
+    div.led_effect_yellow3 {
+        margin: 2px 2px;
+        width: 8px;
+        height: 9px;
+        transform: rotateY(15deg);
+        border-radius: 50%;
+        background-color: black;
+        box-shadow: rgba(10, 10, 10, 0.3) -1px 1px 7px 1px, inset #808002 1px -1px 4px, #FF0 0 2px 11px;
+        -webkit-animation: blinkYellow 1s infinite;
+        -moz-animation: blinkYellow 1s infinite;
+        -ms-animation: blinkYellow 1s infinite;
+        -o-animation: blinkYellow 1s infinite;
+        animation: blinkYellow 1s infinite;
+        visibility: hidden;
+    }
+    
+    div.led_effect_yellow4 {
+        margin: 2px 2px;
+        width: 8px;
+        height: 9px;
+        transform: rotateY(15deg);
+        border-radius: 50%;
+        background-color: black;
+        box-shadow: rgba(10, 10, 10, 0.3) -1px 1px 7px 1px, inset #808002 1px -1px 4px, #FF0 0 2px 11px;
+        -webkit-animation: blinkYellow 1s infinite;
+        -moz-animation: blinkYellow 1s infinite;
+        -ms-animation: blinkYellow 1s infinite;
+        -o-animation: blinkYellow 1s infinite;
+        animation: blinkYellow 1s infinite;
+        visibility: hidden;
+    }
+    
+    div.led_effect_yellow5 {
+        margin: 2px 2px;
+        width: 8px;
+        height: 9px;
+        transform: rotateY(15deg);
+        border-radius: 50%;
+        background-color: black;
+        box-shadow: rgba(10, 10, 10, 0.3) -1px 1px 7px 1px, inset #808002 1px -1px 4px, #FF0 0 2px 11px;
+        -webkit-animation: blinkYellow 1s infinite;
+        -moz-animation: blinkYellow 1s infinite;
+        -ms-animation: blinkYellow 1s infinite;
+        -o-animation: blinkYellow 1s infinite;
+        animation: blinkYellow 1s infinite;
+        visibility: hidden;
+    }
+    
+    @-webkit-keyframes blinkYellow {
+        from {
+            background-color: #FF0;
+        }
+        50% {
+            background-color: #AA0;
+            box-shadow: rgba(10, 10, 10, 0.3) 0 -1px 7px 1px, inset #808002 0 -1px 9px, #FF0 0 2px 0;
+        }
+        to {
+            background-color: #FF9;
+        }
+    }
+    
+    @-moz-keyframes blinkYellow {
+        from {
+            background-color: #FF0;
+        }
+        50% {
+            background-color: #AA0;
+            box-shadow: rgba(10, 10, 10, 0.3) 0 -1px 7px 1px, inset #808002 0 -1px 9px, #FF0 0 2px 0;
+        }
+        to {
+            background-color: #FF9;
+        }
+    }
+    
+    @-ms-keyframes blinkYellow {
+        from {
+            background-color: #FF0;
+        }
+        50% {
+            background-color: #AA0;
+            box-shadow: rgba(10, 10, 10, 0.3) 0 -1px 7px 1px, inset #808002 0 -1px 9px, #FF0 0 2px 0;
+        }
+        to {
+            background-color: #FF9;
+        }
+    }
+    
+    @-o-keyframes blinkYellow {
+        from {
+            background-color: #FF0;
+        }
+        50% {
+            background-color: #AA0;
+            box-shadow: rgba(10, 10, 10, 0.3) 0 -1px 7px 1px, inset #808002 0 -1px 9px, #FF0 0 2px 0;
+        }
+        to {
+            background-color: #FF0;
+        }
+    }
+    
+    @keyframes blinkYellow {
+        from {
+            background-color: #FF0;
+        }
+        50% {
+            background-color: #AA0;
+            box-shadow: rgba(10, 10, 10, 0.3) 0 -1px 7px 1px, inset #808002 0 -1px 9px, #FF0 0 2px 0;
+        }
+        to {
+            background-color: #FF0;
+        }
     }
     
     div.menu_article_simbolo2 {

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Tabela Dinâmica</title>
+</head>
+
+<body>
+    <div id="interface">
+        <header>
+            </br>
+            <h1>Nome da empresa, logo como se fosse um papel timbrado</h1>
+        </header>
+        <section id="margem">
+            <main>
+                <div id="projeto_x">
+                    <table id="projeto">
+                        <tr>
+                            <th id="ajustes" colspan="4">Projeto</th>
+                            <th id="OS" colspan="2">OS:</th>
+                        </tr>
+                        <tr>
+                            <th id="name" colspan="6" class="nome">Nome do Projeto:
+                                <span id="resposta"></span>
+                            </th>
+
+
+                        </tr>
+                        <tr>
+                            <th colspan="4">Responsável:</th>
+
+                            <th colspan="2">Função: </th>
+
+                        </tr>
+                        <tr>
+                            <th colspan="6">Trabalhadores:</th>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Nome</td>
+
+                            <td>RG</td>
+                            <td colspan="2">Função</td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="3"></td>
+                            <td></td>
+                            <td colspan="2"></td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div id="cronograma">
+                    <h2>Cronograma:</h2>
+                    <div id="adicionarbtn">
+                        <button id="adicionar">Adicionar</button>
+                    </div>
+                    <table id="tabledynamic">
+                        <tr>
+                            <th id="data">Data</th>
+                            <th id="ajustes">Atividades</th>
+                            <th id="status" colspan="2">Status</th>
+                            <th>Opção</th>
+                        </tr>
+                        <tr>
+                            <td id="campodata"><input type="date" id="Entrada" class="data" /></td>
+                            <td>
+                                <input type="text" id="Entrada" class="atividades" />
+                            </td>
+                            <td>
+                                <input type="checkbox" value="espera" id="espera" class="status" />
+                                <label for="espera">Espera</label>
+                                </br>
+                                <input type="checkbox" value="andamento" id="andamento" class="status" />
+                                <label for="andamento">Iniciada</label>
+                            </td>
+                            <td><input type="checkbox" value="parada" id="parada" class="status" />
+                                <label for="parada">Parado</label>
+                                </br><input type="checkbox" value="Concluida" id="concluida" class="status" />
+                                <label for="concluida">Concluida</label>
+
+                                <td>
+                                    <span class="material-icons" id="del">delete</span>
+                                    <span class="material-icons" id="editar">edit</span>
+                                    <span class="material-icons" id="gravar">save</span>
+                                </td>
+                        </tr>
+                    </table>
+                </div>
+
+
+                <div id="tabelaconcluida">
+                    <table id="atividadeconc">
+                        <tr>
+                            <th id="head" colspan="2">Atividades Concluídas</th>
+                        </tr>
+                        <tr>
+                            <th class="dataconc">Data</th>
+                            <th id="ajustes">Atividades</th>
+                        </tr>
+                    </table>
+            </main>
+
+            <div class="modalbg">
+                <div class="modal">
+
+                    <h2>Cadastrar Projeto:</h2>
+                    <button id="salvarbtn" class="salvarcad">Enviar</button>
+                    <label for="respnameproj">Nome do Projeto:</label>
+                    <input type="text" name="respnameproj" id="name_proj">
+                    <label for="respos">Ordem de Serviço:</label>
+                    <input type="text" name="respos" id="os_proj"></br>
+                    <label for="respnameform" id="responsavel_proj">Responsável:</label>
+                    <input type="text" name="respnameform">
+                    <label for="respfuncform">Função:</label>
+                    <input type="text" name="respfuncform" id="responsavel_prof">
+                    <label for="respfnome">Nome:</label>
+                    <input type="text" name="respfnome" id="funcionario_name">
+                    <label for="respdoc">RG:</label>
+                    <input type="text" name="respcdoc" id="funcionario_rg">
+                    <label for="respfform">Função:</label>
+                    <input type="text" name="respfform" id="funcionario_prof">
+
+                </div>
+            </div>
+        </section>
+
+        </div>
+        <footer></footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,239 @@
+    div#interface {
+        background-color: transparent;
+        width: 950px;
+        height: 1200px;
+        margin: 20px auto 20px auto;
+        box-shadow: 0px 0px 10px rgba(43, 27, 27, 0.6);
+        padding: 40px;
+        box-sizing: border-box;
+    }
+    
+    #margem {
+        width: 925px;
+        height: 1175px;
+        background-color: transparent;
+        border: 1px solid black;
+        position: absolute;
+        top: 25px;
+        left: 210px;
+    }
+    
+    #projeto_x {
+        position: relative;
+        top: 200px;
+        margin: 5px;
+        padding: 5px;
+        transform: scale(90%);
+        background-color: transparent;
+    }
+    
+    #projeto {
+        width: 850px;
+    }
+    
+    #OS {
+        width: 200px;
+    }
+    
+    header {
+        margin: auto;
+        position: relative;
+        top: -65px;
+        right: 40px;
+        width: 950px;
+        height: 150px;
+        background-color: antiquewhite;
+        box-sizing: border-box;
+    }
+    
+    #func {
+        width: 160px;
+    }
+    
+    .nome {
+        width: 350px;
+    }
+    
+    .name {
+        width: 760px;
+    }
+    
+    #adicionarbtn {
+        width: 68px;
+        height: 28px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2px;
+        margin: 2px;
+        position: relative;
+        left: 800px;
+        top: -25px;
+    }
+    
+    #salvar {
+        width: 68px;
+        height: 28px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2px;
+        margin: 2px;
+        position: relative;
+        left: 800px;
+        bottom: 300px;
+    }
+    
+    #adicionar {
+        width: 75px;
+        text-align: center;
+        display: inline-block;
+        padding: 3px;
+        margin: 3px;
+        background-color: coral;
+        color: white;
+    }
+    
+    .salvarcad {
+        text-align: center;
+        display: inline-block;
+        padding: 3px;
+        margin: 3px;
+        background-color: coral;
+        color: white;
+        width: 75px;
+        position: relative;
+        left: 375px;
+        top: -50px;
+    }
+    
+    #cronograma {
+        position: relative;
+        top: 220px;
+        margin: 5px;
+        padding: 5px;
+        transform: scale(90%);
+        background-color: transparent;
+    }
+    
+    #tabledynamic {
+        text-align: justify;
+        height: auto;
+        border: rgba(0, 0, 0, .7) solid 1px;
+    }
+    
+    thead {
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+    
+    td {
+        border: rgba(0, 0, 0, .7) solid 1px;
+        text-align: justify;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        vertical-align: top;
+    }
+    
+    #ajustes {
+        width: 340px;
+        text-align: center;
+    }
+    
+    .atividades {
+        width: 325px;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: justify;
+    }
+    
+    .responsavel {
+        width: 350px;
+    }
+    
+    .atividades:hover {
+        width: 325px;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: justify;
+        background-color: rgba(200, 200, 200, .5);
+    }
+    
+    .data {
+        width: 125px;
+        text-align: center;
+    }
+    
+    #status {
+        width: 200px;
+        text-align: center;
+    }
+    
+    th {
+        text-align: center;
+        border: rgba(0, 0, 0, .7) solid 1px;
+        text-align: justify;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        vertical-align: top;
+    }
+    
+    p#table {
+        text-align: justify;
+        vertical-align: top;
+        position: relative;
+        top: -15px;
+    }
+    
+    #tabelaconcluida {
+        position: relative;
+        top: 250px;
+        left: 150px;
+        width: 700px;
+        background-color: blueviolet;
+    }
+    
+    #atividadeconc {
+        position: relative;
+        top: 0px;
+        width: 700px;
+        background-color: transparent;
+    }
+    
+    .dataconc {
+        width: 125px;
+        text-align: center;
+    }
+    
+    .modalbg {
+        width: 500px;
+        height: 400px;
+        background-color: rgba(0, 25, 50, 0.3);
+        position: absolute;
+        z-index: 10;
+        display: inline-table;
+        justify-content: center;
+        align-items: center;
+        border-style: 2px solid black;
+        left: 225px;
+        top: 100px;
+        visibility:hidden;
+    }
+    
+    .modal {
+        background-color: rgba(250, 250, 250, .8);
+        width: 90%;
+        height: 90%;
+        display: inline-flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
